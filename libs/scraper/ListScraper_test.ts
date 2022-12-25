@@ -16,7 +16,8 @@ Deno.test("成功", async (t) => {
 
   const result = scraper.run(htmlFile, page);
 
-  await t.step("content.totalPageNum", () => {
+  await t.step("content.totalPageNum/currentPageNum", () => {
+    assertEquals(result.content?.currentPageNum, 1);
     assertEquals(result.content?.totalPageNum, 27);
   });
 

@@ -10,7 +10,7 @@ import { Logger } from "../utils/logger.ts";
 
 export const ListScraper: Scraper<ListPageContent> = {
   run(html, page) {
-    Logger.debug("[scrape] start", page.url.toString());
+    Logger.info(`[scrape] start: ${page.url.toString()}`);
 
     const { document: doc } = parseHTML(html, "text/html");
 
@@ -45,6 +45,11 @@ const scrapeContentWithoutItems = (
     totalPageNumNode?.textContent ?? "1",
     10
   );
+  const currentPageNumNode = doc?.querySelector(".navspan > .navlinkcurrent");
+  const currentPageNum = Number.parseInt(
+    currentPageNumNode?.textContent ?? "1",
+    10
+  );
 
   return {
     title,
@@ -53,6 +58,7 @@ const scrapeContentWithoutItems = (
       text: descriptionElm?.textContent ?? "",
     },
     totalPageNum,
+    currentPageNum,
   };
 };
 
@@ -113,17 +119,23 @@ const scrapeContentItems = (
               ).toString(),
             }
           : undefined,
-        artist: {
-          text: artistElm?.innerHTML ?? "",
-          url: urlGetter(artistElm?.getAttribute("href")).toString(),
-        },
-        release: {
-          main: {
-            text: releaseElm?.innerHTML ?? "",
-            url: urlGetter(releaseElm?.getAttribute("href")).toString(),
-          },
-          sub: releaseSubElm?.textContent ?? undefined,
-        },
+        artist:
+          artistElm != null
+            ? {
+                text: artistElm?.innerHTML ?? "",
+                url: urlGetter(artistElm?.getAttribute("href")).toString(),
+              }
+            : undefined,
+        release:
+          releaseElm != null
+            ? {
+                main: {
+                  text: releaseElm?.innerHTML ?? "",
+                  url: urlGetter(releaseElm?.getAttribute("href")).toString(),
+                },
+                sub: releaseSubElm?.textContent ?? undefined,
+              }
+            : undefined,
         description: {
           html: descriptionElm?.innerHTML ?? "",
           text: descriptionElm?.textContent ?? "",
@@ -140,7 +152,7 @@ const scrapeNextUrl = (
 ): ScrapedPageNext => {
   const nextUrlStr =
     doc?.querySelector(".navlinknext")?.getAttribute("href") ?? undefined;
-  Logger.debug("nextUrlStr", nextUrlStr);
+  Logger.debug(`[scrape] next url is: ${nextUrlStr}`);
 
   return nextUrlStr != null && nextUrlStr.length !== 0
     ? {

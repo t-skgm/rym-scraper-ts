@@ -13,7 +13,7 @@ export class Page<Content> implements PageBase<Content> {
   constructor(readonly scraper: Scraper<Content>, readonly url: URL) {}
 
   async fetchAndScrape(): Promise<PageScrapeResult<Content>> {
-    Logger.debug("[page]", this.url.toString());
+    Logger.debug(`[page] ${this.url.toString()}`);
     const body = await defaultFetcher.getText(this.url);
     const result = this.scraper.run(body, this);
 

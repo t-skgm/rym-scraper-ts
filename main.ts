@@ -5,6 +5,7 @@ import { ListScraper } from "./libs/scraper/ListScraper.ts";
 import { createListURLGeneratorFromString } from "./libs/URLGenerator/ListURLGenerator.ts";
 import { sleep } from "./libs/utils/sleep.ts";
 import { Logger } from "./libs/utils/logger.ts";
+import { Constants } from "./constants.ts";
 
 const main = async (args: Args) => {
   const url = args.url as string | undefined;
@@ -17,22 +18,25 @@ const main = async (args: Args) => {
 
   Logger.debug("[main] create url");
   const initialUrl = createListURLGeneratorFromString(url).run();
-  Logger.debug("[main] url is", initialUrl);
+  Logger.debug(`[main] url is: ${initialUrl.toString()}`);
 
   Logger.debug("[main] page iterating");
   const list = PageList.fromInitialURL(ListScraper, initialUrl);
   const contents: ListPageContent[] = [];
   try {
     for await (const page of list) {
-      Logger.debug(page?.content);
-      if (page?.content) contents.push(page.content);
-      await sleep(1000);
+      if (page) {
+        // Logger.debug(page.content);
+        if (page.content) contents.push(page.content);
+        await sleep(Constants.WAIT_MS_EACH_ACCESS);
+      }
     }
 
-    Logger.debug("[main] result", contents);
+    Logger.debug("[main] scrape finished");
 
     const data = JSON.stringify(contents);
     await Deno.writeTextFile("./out/out.json", data);
+    Logger.debug("[main] file written");
 
     Logger.info("[main] finish");
   } catch (err) {
