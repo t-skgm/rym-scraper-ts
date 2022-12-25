@@ -9,11 +9,11 @@ import { Presenter } from "../domain/Presenter.ts";
 export const ListCSVPresenter: Presenter<ListPageContent> = {
   async run(file, contents) {
     const header = [
-      "artistName",
-      "artistUrl",
-      "releaseName",
-      "releaseUrl",
-      "description",
+      "ArtistName",
+      "ArtistUrl",
+      "ReleaseName",
+      "ReleaseUrl",
+      "Description",
     ] as const;
 
     const rows = contents

@@ -9,5 +9,9 @@ export type Worker = {
 export type WorkerInput<Content> = {
   initialUrl: URL;
   scraper: Scraper<Content>;
-  presenters: { filename: string; presenter: Presenter<Content> }[];
+  presenters: {
+    filenameBase?: string;
+    extension: string;
+    presenter: Presenter<Content>;
+  }[];
 };

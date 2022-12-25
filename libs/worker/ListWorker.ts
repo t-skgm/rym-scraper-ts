@@ -12,7 +12,8 @@ export class ListWorker implements Worker {
     readonly initialUrl: URL,
     readonly scraper: Scraper<ListPageContent>,
     readonly presenters: {
-      filename: string;
+      filenameBase?: string;
+      extension: string;
       presenter: Presenter<ListPageContent>;
     }[]
   ) {}
@@ -42,16 +43,27 @@ export class ListWorker implements Worker {
   }
 
   async save(): Promise<void> {
-    const proms = this.presenters.map(async ({ filename, presenter }) => {
-      const file = await Deno.open(filename, {
-        write: true,
-        create: true,
-        truncate: true,
-      });
-      await presenter.run(file, this.contents);
-      file.close();
-    });
+    const proms = this.presenters.map(
+      async ({ filenameBase, extension, presenter }) => {
+        const file = await Deno.open(
+          `${filenameBase ?? "./out/"}${this.filenamePrefix()}.${extension}`,
+          {
+            write: true,
+            create: true,
+            truncate: true,
+          }
+        );
+        await presenter.run(file, this.contents);
+        file.close();
+      }
+    );
 
     await Promise.all(proms);
+  }
+
+  filenamePrefix() {
+    const author = this.contents[0]?.author.text ?? "author";
+    const title = this.contents[0]?.title.substring(0, 20) ?? "list";
+    return `${author} - ${title}`;
   }
 }

@@ -17,8 +17,8 @@ const main = async ({ urlStr }: { urlStr: string }) => {
     initialUrl,
     scraper: ListScraper,
     presenters: [
-      { presenter: ListCSVPresenter, filename: "./out/list.csv" },
-      { presenter: ListJSONPresenter, filename: "./out/list.json" },
+      { presenter: ListCSVPresenter, extension: "csv" },
+      { presenter: ListJSONPresenter, extension: "json" },
     ],
   });
 
@@ -43,11 +43,11 @@ if (import.meta.main) {
   const args = parse(Deno.args, {
     string: ["url"],
   });
-  const url = args.url as string | undefined;
-  if (url == null || url.length === 0) {
+  const urlStr = args.url as string | undefined;
+  if (urlStr == null || urlStr.length === 0) {
     Logger.error("[args] No url");
     Deno.exit(1);
   }
 
-  await main({ urlStr: url });
+  await main({ urlStr });
 }
