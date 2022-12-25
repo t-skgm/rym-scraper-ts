@@ -1047,3 +1047,2095 @@ snapshot[`成功 4`] = `
   url: "https://rateyourmusic.com/~foxbyrd",
 }
 `;
+
+snapshot[`成功 (withEmptyRow) 1`] = `
+[
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/46e8a73d6ac2488acdc5cc61c7b30a77/3821503",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Giles Corey",
+      url: "https://rateyourmusic.com/artist/giles-corey",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Giles Corey",
+        url: "https://rateyourmusic.com/release/album/giles-corey/giles-corey/",
+      },
+      sub: "(2011)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/33d4d8d35cd87680c2d833370651d27e/3154317",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Scott Walker",
+      url: "https://rateyourmusic.com/artist/scott-walker",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Drift",
+        url: "https://rateyourmusic.com/release/album/scott-walker/the-drift/",
+      },
+      sub: "(2006)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/3500bef1a6d44d298ced2af01e031ab1/1689852",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Cure",
+      url: "https://rateyourmusic.com/artist/the-cure",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Faith",
+        url: "https://rateyourmusic.com/release/album/the-cure/faith/",
+      },
+      sub: "(1981)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8596e4be20b032f68ce396ea0efd6e9e/5260760",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Set Fire to Flames",
+      url: "https://rateyourmusic.com/artist/set-fire-to-flames",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Sings Reign Rebuilder",
+        url: "https://rateyourmusic.com/release/album/set-fire-to-flames/sings-reign-rebuilder/",
+      },
+      sub: "(2001)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/02d4e72ea2de3bc74a0d1c8b5bf45dee/9479297",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Abysmal Grief",
+      url: "https://rateyourmusic.com/artist/abysmal-grief",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Funeral Cult of Personality",
+        url: "https://rateyourmusic.com/release/album/abysmal-grief/funeral-cult-of-personality/",
+      },
+      sub: "(2021)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/68babbf76f69ac3a6db34ae1f820b581/2508340",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Loreena McKennitt",
+      url: "https://rateyourmusic.com/artist/loreena-mckennitt",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Mask and Mirror",
+        url: "https://rateyourmusic.com/release/album/loreena-mckennitt/the-mask-and-mirror/",
+      },
+      sub: "(1994)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/728bb41684e04a568ee439b7a02f510b/7175135",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Dominant Patri",
+      url: "https://rateyourmusic.com/artist/dominant_patri",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Heroes Glory Demo",
+        url: "https://rateyourmusic.com/release/ep/dominant-patri/heroes-glory-demo/",
+      },
+      sub: undefined,
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/2f595263dcd4102cc6fb69b17bf8152b/10292711",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Old Tower",
+      url: "https://rateyourmusic.com/artist/old-tower",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Tales of the Mad Moon",
+        url: "https://rateyourmusic.com/release/comp/old-tower/tales-of-the-mad-moon/",
+      },
+      sub: "(2021) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/bbf0c258fa1461cc011338c5ddb12790/7018215",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Fiendish Imp",
+      url: "https://rateyourmusic.com/artist/fiendish-imp",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Fiendish Imp",
+        url: "https://rateyourmusic.com/release/album/fiendish-imp/fiendish-imp/",
+      },
+      sub: "(2018)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8b63c0bd2cc8a889cb8477b92927d964/1551603",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: 'Bobby "Boris" Pickett &amp; The Crypt-Kickers',
+      url: "https://rateyourmusic.com/artist/bobby_boris_pickett_and_the_crypt_kickers",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Monster Mash / Monsters' Mash Party",
+        url: "https://rateyourmusic.com/release/single/bobby-boris-pickett-and-the-crypt-kickers/monster-mash-monsters-mash-party/",
+      },
+      sub: "(1962) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/e38fc5fa9383b0824d221138def405b1/1306203",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Dark Sanctuary",
+      url: "https://rateyourmusic.com/artist/dark_sanctuary",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "L'être las - l'envers du miroir",
+        url: "https://rateyourmusic.com/release/album/dark-sanctuary/letre-las-lenvers-du-miroir/",
+      },
+      sub: "(2003)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/e3da9c366e6a4254d99b300c5b94e98f/5385566",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Local Moon",
+      url: "https://rateyourmusic.com/artist/the_local_moon",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Local Moon",
+        url: "https://rateyourmusic.com/release/album/the_local_moon/the_local_moon/",
+      },
+      sub: "(1987)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/844111e5ed50cd7f19f8739853edd1d4/3642541",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Empyrium",
+      url: "https://rateyourmusic.com/artist/empyrium",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Songs of Moors and Misty Fields",
+        url: "https://rateyourmusic.com/release/album/empyrium/songs-of-moors-and-misty-fields/",
+      },
+      sub: "(1997)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/0b119d9cc712b4f0ff78271bcd6ffc1f/10225698",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Eros",
+      url: "https://rateyourmusic.com/artist/eros-6",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "A Southern Code",
+        url: "https://rateyourmusic.com/release/album/eros/a-southern-code/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/b411a5fa1f0ee293eb4e4c30954aa122/10119902",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Kübler-Ross",
+      url: "https://rateyourmusic.com/artist/kubler-ross",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Kübler-Ross",
+        url: "https://rateyourmusic.com/release/album/kubler-ross/kubler-ross-1/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/533aa26ffd03d8b233d85a002b519b8e/10093790",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Diamanda Galás",
+      url: "https://rateyourmusic.com/artist/diamanda_galas",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Broken Gargoyles",
+        url: "https://rateyourmusic.com/release/album/diamanda-galas/broken-gargoyles/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/f7e5dbc45c3edcac49ef1d5216566657/4970765",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Eleven Pond",
+      url: "https://rateyourmusic.com/artist/eleven_pond",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Assemblage",
+        url: "https://rateyourmusic.com/release/album/eleven_pond/assemblage/",
+      },
+      sub: "(2013)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/57587d937785d322da6e12cd6434c43b/1870305",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Invisible Limits",
+      url: "https://rateyourmusic.com/artist/invisible-limits",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Devil Dance",
+        url: "https://rateyourmusic.com/release/single/invisible-limits/devil-dance/",
+      },
+      sub: "(1986) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https:",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Small-Town Boys",
+      url: "https://rateyourmusic.com/artist/small-town-boys-1",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Lifetime / Dreams and Reality",
+        url: "https://rateyourmusic.com/release/single/small-town-boys/lifetime-dreams-and-reality/",
+      },
+      sub: "(1986) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/3176906233e292c1bf3760a7473c5546/6235169",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Altar de Fey",
+      url: "https://rateyourmusic.com/artist/altar-de-fey",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Echoes in the Corridor",
+        url: "https://rateyourmusic.com/release/album/altar-de-fey/echoes-in-the-corridor/",
+      },
+      sub: "(2016)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a94cf42f6e7fb9814baa363d95f12a21/2659051",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "13th Chime",
+      url: "https://rateyourmusic.com/artist/13th_chime",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Singles: 1981-1983",
+        url: "https://rateyourmusic.com/release/comp/13th-chime/the-singles-1981-1983/",
+      },
+      sub: "(2009) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a227e5236475bdf66a221e05972ff33d/8654928",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Figure Section",
+      url: "https://rateyourmusic.com/artist/figure-section",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Spectre",
+        url: "https://rateyourmusic.com/release/ep/figure-section/spectre/",
+      },
+      sub: "(2019) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/c088d3d66a656efbfb0cc2c5832f1018/10184010",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Die Welttraumforscher",
+      url: "https://rateyourmusic.com/artist/die_welttraumforscher",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Liederbuch",
+        url: "https://rateyourmusic.com/release/album/die-welttraumforscher/liederbuch/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/91e54423875dc015774d1308ac019afd/8987061",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Die Welttraumforscher",
+      url: "https://rateyourmusic.com/artist/die_welttraumforscher",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "A Young Person's Guide to the Early Welttraumforscher",
+        url: "https://rateyourmusic.com/release/album/die-welttraumforscher/a-young-persons-guide-to-the-early-welttraumforscher/",
+      },
+      sub: "(2021)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/4e0be1877746b7b2ec900e648c11c3c0/9937404",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Cat's Miaow",
+      url: "https://rateyourmusic.com/artist/the-cats-miaow",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Songs '94-'98",
+        url: "https://rateyourmusic.com/release/comp/the-cats-miaow/songs-94-98/",
+      },
+      sub: "(2022) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/cda26c999303c125bdd8c156ceea8432/9923239",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Blind Seagull",
+      url: "https://rateyourmusic.com/artist/blind-seagull",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Personal Decay",
+        url: "https://rateyourmusic.com/release/album/blind-seagull/personal-decay/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/9ecc21271e6d0d216015e7055bcd15ae/2060188",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "This Ascension",
+      url: "https://rateyourmusic.com/artist/this_ascension",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Light and Shade",
+        url: "https://rateyourmusic.com/release/album/this_ascension/light_and_shade/",
+      },
+      sub: "(1991)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/e4ed1b0c720ef099a25679e40110a53d/1695246",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "This Ascension",
+      url: "https://rateyourmusic.com/artist/this_ascension",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Tears in Rain",
+        url: "https://rateyourmusic.com/release/album/this_ascension/tears_in_rain/",
+      },
+      sub: "(1989)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/61ab2688796894ce9d12c377cce140b7/2698376",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Coil",
+      url: "https://rateyourmusic.com/artist/coil",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Moon's Milk (In Four Phases)",
+        url: "https://rateyourmusic.com/release/comp/coil/moons-milk-in-four-phases/",
+      },
+      sub: "(2002) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/9fee552954998798f3aebc71d024ef44/9780780",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Incipientium",
+      url: "https://rateyourmusic.com/artist/incipientium",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Study in Still Life",
+        url: "https://rateyourmusic.com/release/album/incipientium/study-in-still-life/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/68e30fab31194a1f0e4a9a62e1724867/3217797",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Cabaret Voltaire",
+      url: "https://rateyourmusic.com/artist/cabaret-voltaire",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Red Mecca",
+        url: "https://rateyourmusic.com/release/album/cabaret-voltaire/red-mecca/",
+      },
+      sub: "(1981)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/1564b49e1b745d810fb6aab209df4d5d/7494013",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Cabaret Voltaire",
+      url: "https://rateyourmusic.com/artist/cabaret-voltaire",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Living Legends",
+        url: "https://rateyourmusic.com/release/comp/cabaret-voltaire/the-living-legends/",
+      },
+      sub: "(2002) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/f896fb877ef440d9d6623de5a4a7d0b7/10042962",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "minimalviolence",
+      url: "https://rateyourmusic.com/artist/minimalviolence",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Phase Three",
+        url: "https://rateyourmusic.com/release/ep/minimalviolence/phase-three/",
+      },
+      sub: "(2022) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/749c01827a7f97506c6a632e333c1907/2462839",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Candles Burning Blue",
+      url: "https://rateyourmusic.com/artist/the-candles-burning-blue",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Pearls Given to the Swine",
+        url: "https://rateyourmusic.com/release/album/the-candles-burning-blue/pearls-given-to-the-swine/",
+      },
+      sub: "(2001)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/2324bb8c895ecc54f4f6bcc6cd2565c2/1791154",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Conet Project",
+      url: "https://rateyourmusic.com/artist/the-conet-project",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Recordings of Shortwave Numbers Stations",
+        url: "https://rateyourmusic.com/release/album/the-conet-project/recordings-of-shortwave-numbers-stations/",
+      },
+      sub: "(1997)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a69c348cf53ea36a6aef4afd43ebe184/9899585",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Samuel Kerridge",
+      url: "https://rateyourmusic.com/artist/samuel-kerridge",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Kick to Kill",
+        url: "https://rateyourmusic.com/release/album/samuel-kerridge/kick-to-kill/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/0c83a7743481b9b833f54ae16a82ffc8/9995031",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Various Artists",
+      url: "https://rateyourmusic.com/artist/various-artists",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Síntomas de techno: Ondas electrónicas subterráneas desde Perú (1985-1991)",
+        url: "https://rateyourmusic.com/release/comp/various-artists/sintomas-de-techno-ondas-electronicas-subterraneas-desde-peru-1985-1991/",
+      },
+      sub: "(2022) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/fac943fa374363d223271ed44d4cf6b7/8139978",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Pavel Milyakov",
+      url: "https://rateyourmusic.com/artist/pavel-milyakov",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Masse Métal",
+        url: "https://rateyourmusic.com/release/album/pavel-milyakov/masse-metal/",
+      },
+      sub: "(2020)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/fb38b89d8f192c31b8dcd52c6a019c87/5371722",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Pharmakon",
+      url: "https://rateyourmusic.com/artist/pharmakon",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Bestial Burden",
+        url: "https://rateyourmusic.com/release/album/pharmakon/bestial-burden/",
+      },
+      sub: "(2014)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8402b873e2ec75a37f74f0cdee26a540/9560775",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Current 93",
+      url: "https://rateyourmusic.com/artist/current-93",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "If a City Is Set Upon a Hill",
+        url: "https://rateyourmusic.com/release/album/current-93/if-a-city-is-set-upon-a-hill/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/278151701df0437c70ee8431a15ceef0/7147710",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Bauhaus",
+      url: "https://rateyourmusic.com/artist/bauhaus",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Bela Session",
+        url: "https://rateyourmusic.com/release/ep/bauhaus/the-bela-session/",
+      },
+      sub: "(2018) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/68040332f6de36a65c587b93396ccb1a/1560926",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Diamanda Galás",
+      url: "https://rateyourmusic.com/artist/diamanda_galas",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Divine Punishment",
+        url: "https://rateyourmusic.com/release/album/diamanda_galas/the_divine_punishment/",
+      },
+      sub: "(1986)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/71fcdb8f2e26e011598a91e2f42ef262/2104362",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Sisters of Mercy",
+      url: "https://rateyourmusic.com/artist/the-sisters-of-mercy",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Some Girls Wander by Mistake",
+        url: "https://rateyourmusic.com/release/comp/the-sisters-of-mercy/some-girls-wander-by-mistake/",
+      },
+      sub: "(1992) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/6656e3d6eae3d33934164e9a0a957dba/9341878",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Of the Wand and the Moon",
+      url: "https://rateyourmusic.com/artist/_of-the-wand-and-the-moon",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Your Love Can't Hold This Wreath of Sorrow",
+        url: "https://rateyourmusic.com/release/album/of-the-wand-and-the-moon/your-love-cant-hold-this-wreath-of-sorrow/",
+      },
+      sub: "(2021)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/963362c3100b689b85e1d4dd502d892f/7797937",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Twin Tribes",
+      url: "https://rateyourmusic.com/artist/twin-tribes",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Ceremony",
+        url: "https://rateyourmusic.com/release/album/twin-tribes/ceremony/",
+      },
+      sub: "(2019)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/252743351800caf42d84a668b068ce52/7014960",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Twin Tribes",
+      url: "https://rateyourmusic.com/artist/twin-tribes",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Shadows",
+        url: "https://rateyourmusic.com/release/album/twin-tribes/shadows/",
+      },
+      sub: "(2018)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/d9e742b049a402ae2ab25e2d68fc2170/4404209",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "She Past Away",
+      url: "https://rateyourmusic.com/artist/she-past-away",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Belirdi Gece",
+        url: "https://rateyourmusic.com/release/album/she-past-away/belirdi-gece/",
+      },
+      sub: "(2013)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/5412eddd936aa4a6479da60bd8510635/9753608",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Freundliche Kreisel",
+      url: "https://rateyourmusic.com/artist/freundliche-kreisel",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Freundliche Kreisel",
+        url: "https://rateyourmusic.com/release/album/freundliche-kreisel/freundliche-kreisel/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a9d7193a62cdd537afb9d3042e12f3c7/8166959",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: 'Молчат Дома <span class="subtext">[Molchat Doma]</span>',
+      url: "https://rateyourmusic.com/artist/%D0%BC%D0%BE%D0%BB%D1%87%D0%B0%D1%82-%D0%B4%D0%BE%D0%BC%D0%B0",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Этажи (Etazhi)",
+        url: "https://rateyourmusic.com/release/album/%D0%BC%D0%BE%D0%BB%D1%87%D0%B0%D1%82-%D0%B4%D0%BE%D0%BC%D0%B0/%D1%8D%D1%82%D0%B0%D0%B6%D0%B8-etazhi/",
+      },
+      sub: "(2018)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/5d5cf4312e9d69583550bd2b8f906f1c/8134470",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Claustrum",
+      url: "https://rateyourmusic.com/artist/claustrum",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Funeral Fugues &amp; Reminiscence † 1992-1997",
+        url: "https://rateyourmusic.com/release/album/claustrum/funeral-fugues-and-reminiscence-%E2%80%A0-1992-1997/",
+      },
+      sub: "(2016)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/d64c79ad9f571a3e71fb813502cacdba/9761110",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Height/Dismay",
+      url: "https://rateyourmusic.com/artist/height_dismay",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Height/Dismay",
+        url: "https://rateyourmusic.com/release/ep/height_dismay/height_dismay/",
+      },
+      sub: "(2022) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8dae51e13e85ebbd666006adcf9f3924/2763523",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Cocteau Twins",
+      url: "https://rateyourmusic.com/artist/cocteau-twins",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Pink Opaque",
+        url: "https://rateyourmusic.com/release/comp/cocteau-twins/the-pink-opaque/",
+      },
+      sub: "(1985) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/12219eb3c1f02e577f3c1163b497b774/7247037",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Carola Baer",
+      url: "https://rateyourmusic.com/artist/carola-baer",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Story of Valerie",
+        url: "https://rateyourmusic.com/release/album/carola-baer/the-story-of-valerie/",
+      },
+      sub: "(2018)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/3d479b6320e93e79a088628f9eda172b/9767127",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Jimmy Smack",
+      url: "https://rateyourmusic.com/artist/jimmy_smack",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Death is Certain",
+        url: "https://rateyourmusic.com/release/comp/jimmy-smack/death-is-certain/",
+      },
+      sub: "(2022) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/97097b15c4807ac504300ff41755b925/9638492",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Dali Muru &amp; The Polyphonic Swarm",
+      url: "https://rateyourmusic.com/artist/dali-muru-and-the-polyphonic-swarm",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Dali Muru &amp; the Polyphonic Swarm",
+        url: "https://rateyourmusic.com/release/album/dali-muru-and-the-polyphonic-swarm/dali-muru-and-the-polyphonic-swarm/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a1b402e7b8d8daad71ec30f9a4fde746/8540817",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "John Maus",
+      url: "https://rateyourmusic.com/artist/john-maus",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Bennington",
+        url: "https://rateyourmusic.com/release/single/john-maus/bennington/",
+      },
+      sub: "(2012) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/c1e3e513e10bac0866ee8dbd9d00fc31/2454314",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "For Against",
+      url: "https://rateyourmusic.com/artist/for_against",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "In the Marshes",
+        url: "https://rateyourmusic.com/release/ep/for-against/in-the-marshes/",
+      },
+      sub: "(1990) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/bd9632c69ead61b081224983f24f0e1f/2135873",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Various Artists",
+      url: "https://rateyourmusic.com/artist/various-artists",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "RadioNome",
+        url: "https://rateyourmusic.com/release/album/various-artists/radionome/",
+      },
+      sub: "(1982)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/6cc2c566ae76a3c0f67983a1881975db/9643242",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Läuten der Seele",
+      url: "https://rateyourmusic.com/artist/lauten-der-seele",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Läuten der Seele",
+        url: "https://rateyourmusic.com/release/album/lauten-der-seele/lauten-der-seele/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/31945d47ee6c577e5f66d994498f67ef/2285283",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Liaisons Dangereuses",
+      url: "https://rateyourmusic.com/artist/liaisons-dangereuses",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Liaisons Dangereuses",
+        url: "https://rateyourmusic.com/release/album/liaisons-dangereuses/liaisons-dangereuses/",
+      },
+      sub: "(1981)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a5bdd90c8e93b84af5c20adc61b76d27/5369927",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Afterimage",
+      url: "https://rateyourmusic.com/artist/afterimage-2",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Strange Confession",
+        url: "https://rateyourmusic.com/release/comp/afterimage/strange-confession/",
+      },
+      sub: "(2007) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/9095d5052d33aa32383667b8614beda6/1588914",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Visage",
+      url: "https://rateyourmusic.com/artist/visage",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Fade to Grey / The Steps",
+        url: "https://rateyourmusic.com/release/single/visage/fade-to-grey-the-steps/",
+      },
+      sub: "(1980) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8f7ca9af89e2bdc9b9368ca88d1b181d/5029425",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Weep, O'Mine Eyes",
+      url: "https://rateyourmusic.com/artist/weep__omine_eyes",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "A Beautiful Memory Lingers",
+        url: "https://rateyourmusic.com/release/album/weep__omine_eyes/a_beautiful_memory_lingers/",
+      },
+      sub: "(1989)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/e1e5d579a57ae1d364e95926612ed27b/9526132",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Anna von Hausswolff",
+      url: "https://rateyourmusic.com/artist/anna-von-hausswolff",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Live at Montreux Jazz Festival",
+        url: "https://rateyourmusic.com/release/album/anna-von-hausswolff/live-at-montreux-jazz-festival/",
+      },
+      sub: "(2022)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/c86b41d6fcb6fed3eebf18e517db5526/6426504",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Dominique Lawalrée",
+      url: "https://rateyourmusic.com/artist/dominique-lawalree",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "First Meeting",
+        url: "https://rateyourmusic.com/release/comp/dominique-lawalree/first-meeting/",
+      },
+      sub: "(2017) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/3055566a4e6c5797eb36fd8e4cb37a9d/9164587",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "From Nursery to Misery",
+      url: "https://rateyourmusic.com/artist/from-nursery-to-misery",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Tree Spirits",
+        url: "https://rateyourmusic.com/release/comp/from-nursery-to-misery/tree-spirits/",
+      },
+      sub: "(2021) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/d39796959ff958b8b1b5d9782327e4e6/9005886",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Dot Allison",
+      url: "https://rateyourmusic.com/artist/dot-allison",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Heart-Shaped Scars",
+        url: "https://rateyourmusic.com/release/album/dot-allison/heart-shaped-scars/",
+      },
+      sub: "(2021)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/62b6eb444c0e920710230a985555d786/1729009",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Sad Lovers &amp; Giants",
+      url: "https://rateyourmusic.com/artist/sad_lovers_and_giants",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Lost in a Moment / The Tightrope Touch",
+        url: "https://rateyourmusic.com/release/single/sad-lovers-and-giants/lost-in-a-moment-the-tightrope-touch/",
+      },
+      sub: "(1982) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a9d456a184b968714fe963fdd5e02f01/9569761",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Darkside",
+      url: "https://rateyourmusic.com/artist/darkside-3",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Spiral",
+        url: "https://rateyourmusic.com/release/album/darkside/spiral/",
+      },
+      sub: "(2021)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/32f925edc1af4206f35e7cbb470fcea6/3657484",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Timber Timbre",
+      url: "https://rateyourmusic.com/artist/timber-timbre",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Creep On Creepin' On",
+        url: "https://rateyourmusic.com/release/album/timber-timbre/creep-on-creepin-on/",
+      },
+      sub: "(2011)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/4d839674fd214a238c00204be02da3a0/2077478",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Grauzone",
+      url: "https://rateyourmusic.com/artist/grauzone",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Grauzone",
+        url: "https://rateyourmusic.com/release/album/grauzone/grauzone/",
+      },
+      sub: "(1981)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/58793bfb2380e6adecb7e31e0fb8562a/6183309",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Accident du travail",
+      url: "https://rateyourmusic.com/artist/accident_du_travail",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Trés prècieux sang",
+        url: "https://rateyourmusic.com/release/album/accident-du-travail/tres-precieux-sang/",
+      },
+      sub: "(2016)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/87ddee573a558ffedf8eb7a88b1beee6/6930328",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Decades",
+      url: "https://rateyourmusic.com/artist/decades-3",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Hell / Enderlein",
+        url: "https://rateyourmusic.com/release/single/decades/hell-enderlein/",
+      },
+      sub: "(1982) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/e80c7bf84fbd5d6c82cd31037e7d6ff2/2171195",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Smiths",
+      url: "https://rateyourmusic.com/artist/the-smiths",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Strangeways, Here We Come",
+        url: "https://rateyourmusic.com/release/album/the-smiths/strangeways-here-we-come/",
+      },
+      sub: "(1987)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8e8c31d1aa5b9d009c93fe5c33deed5f/6715841",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Various Artists",
+      url: "https://rateyourmusic.com/artist/various-artists",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "80s Underground Cassette Culture Volume 1",
+        url: "https://rateyourmusic.com/release/comp/various-artists/80s-underground-cassette-culture-volume-1/",
+      },
+      sub: "(2017) [Compilation]",
+    },
+  },
+  {
+    art: undefined,
+    description: {
+      html: '<span class="rendered_text">Not in database. Bandcamp: <a rel="nofollow noopener" target="_blank" href="https://detritirecords.bandcamp.com/album/her-absence-fill-the-world-part-time-punk\\r"><span class="rendered_text_url_pre_hidden">https://detritirecords.ban</span><span class="rendered_text_url_hidden">dcamp.com/album/her-absence-fill-the-world-</span>part-time-punk\\r</a><br>Youtube: <a rel="nofollow noopener" target="_blank" href="https://www.youtube.com/watch?v=Uc6GyROrpng\\r">https://www.youtube.com/watch?v=Uc6GyROrpng\\r</a><br>\\r<br>Minimal Wave - Ethereal sounding.</span>',
+      text: "Not in database. Bandcamp: https://detritirecords.bandcamp.com/album/her-absence-fill-the-world-part-time-punk\\rYoutube: https://www.youtube.com/watch?v=Uc6GyROrpng\\r\\rMinimal Wave - Ethereal sounding.",
+    },
+    title: "Her Absence Fill the World - Part-time Punk (2021)",
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/203fbb85e23f3cfac8ef5c82021f753a/2054815",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Zero Kama",
+      url: "https://rateyourmusic.com/artist/zero-kama",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Secret Eye of L.A.Y.L.A.H.",
+        url: "https://rateyourmusic.com/release/album/zero-kama/the-secret-eye-of-l_a_y_l_a_h/",
+      },
+      sub: "(1984)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/51614e32519ecb1e6045d1951a33d924/1594513",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Museum of Devotion",
+      url: "https://rateyourmusic.com/artist/museum_of_devotion",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "...to The Pink Period",
+        url: "https://rateyourmusic.com/release/album/museum_of_devotion/___to_the_pink_period/",
+      },
+      sub: "(1988)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/65e5181c7743e27392f8a7e255ab7031/5094002",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Negative Approach",
+      url: "https://rateyourmusic.com/artist/negative-approach",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Negative Approach",
+        url: "https://rateyourmusic.com/release/ep/negative-approach/negative-approach/",
+      },
+      sub: "(1982) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8635d07ae9211e002c8d537e05e041cf/3848972",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Message",
+      url: "https://rateyourmusic.com/artist/message-1",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Dernière Nuit / The Crazy Garden",
+        url: "https://rateyourmusic.com/release/single/message/derniere-nuit-the-crazy-garden/",
+      },
+      sub: "(1988) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https:",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "SPK",
+      url: "https://rateyourmusic.com/artist/spk",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Leichenschrei",
+        url: "https://rateyourmusic.com/release/album/spk/leichenschrei/",
+      },
+      sub: "(1982)",
+    },
+  },
+  {
+    art: {
+      src: "https:",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Filmmaker",
+      url: "https://rateyourmusic.com/artist/filmmaker-1",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "The Love Market",
+        url: "https://rateyourmusic.com/release/album/filmmaker/the-love-market/",
+      },
+      sub: "(2019)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/ae6287f2c4be01eb67a21d58450d6e87/10154620",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "New Order",
+      url: "https://rateyourmusic.com/artist/new-order",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Power, Corruption &amp; Lies",
+        url: "https://rateyourmusic.com/release/album/new-order/power-corruption-and-lies/",
+      },
+      sub: "(1983)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/a3afedccf57dc89cbe63b15a361eaa3d/6908580",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Boy Harsher",
+      url: "https://rateyourmusic.com/artist/boy-harsher",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Lesser Man",
+        url: "https://rateyourmusic.com/release/ep/boy-harsher/lesser-man/",
+      },
+      sub: "(2015) [EP]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/f819533c95939a983cdb8125876da675/1994711",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Joy Division",
+      url: "https://rateyourmusic.com/artist/joy-division",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Peel Sessions",
+        url: "https://rateyourmusic.com/release/comp/joy-division/peel-sessions/",
+      },
+      sub: "(1990) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/79f52ef00886470017afadd3e0035a3c/1340329",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Joy Division",
+      url: "https://rateyourmusic.com/artist/joy-division",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Les Bains Douches 18 December 1979",
+        url: "https://rateyourmusic.com/release/album/joy-division/les-bains-douches-18-december-1979/",
+      },
+      sub: "(2001)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/e6fff7eadf4c99999c252770541f0fd2/1545735",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Eyeless in Gaza",
+      url: "https://rateyourmusic.com/artist/eyeless_in_gaza",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Rust Red September",
+        url: "https://rateyourmusic.com/release/album/eyeless-in-gaza/rust-red-september/",
+      },
+      sub: "(1983)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/61b0ea9f57ce04c3be614a6ec3be6c0e/2500871",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Ain Soph",
+      url: "https://rateyourmusic.com/artist/ain_soph",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Simulacra",
+        url: "https://rateyourmusic.com/release/album/ain-soph-sigillum-s/simulacra/",
+      },
+      sub: "(1989)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/c9d751e092d7df2e33c2524e2d6df2a6/6128736",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Ancient Methods",
+      url: "https://rateyourmusic.com/artist/ancient-methods",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "A Collection of Ancient Airs",
+        url: "https://rateyourmusic.com/release/comp/ancient-methods/a-collection-of-ancient-airs/",
+      },
+      sub: "(2016) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/1814870819a0285d30560db80abea31d/5203179",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Hal Hutchinson",
+      url: "https://rateyourmusic.com/artist/hal-hutchinson",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Wreckage Installations &amp; Metalworks",
+        url: "https://rateyourmusic.com/release/album/hal-hutchinson/wreckage-installations-and-metalworks/",
+      },
+      sub: "(2014)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/2d55abe23f2f13a4a10371415e73b2b0/9061095",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Controlled Bleeding",
+      url: "https://rateyourmusic.com/artist/controlled-bleeding",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Distress Signals I &amp; II",
+        url: "https://rateyourmusic.com/release/comp/controlled-bleeding/distress-signals-i-and-ii/",
+      },
+      sub: "(2016) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/f353e61ab049cdb6191e648208e4003e/6075326",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Troller",
+      url: "https://rateyourmusic.com/artist/troller_f1",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Graphic",
+        url: "https://rateyourmusic.com/release/album/troller_f1/graphic/",
+      },
+      sub: "(2016)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/70d9c8d17b13bc8b0c52bae7a88066c7/8521807",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "The Cave",
+      url: "https://rateyourmusic.com/artist/the-cave",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Remain in Dark / Dull Reflections",
+        url: "https://rateyourmusic.com/release/single/the-cave/remain-in-dark-dull-reflections/",
+      },
+      sub: "(1984) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/1d64100b132bcc3b777c73c352e52fa3/4369612",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Victorian Picture Show",
+      url: "https://rateyourmusic.com/artist/victorian_picture_show",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Travels of One / Love With No Words",
+        url: "https://rateyourmusic.com/release/single/victorian_picture_show/travels_of_one___love_with_no_words/",
+      },
+      sub: "(1983) [Single]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/8942ab42ce455483927fd8beb44ef7e3/8587890",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Rainforest Spiritual Enslavement",
+      url: "https://rateyourmusic.com/artist/rainforest-spiritual-enslavement",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Water Witches",
+        url: "https://rateyourmusic.com/release/comp/rainforest-spiritual-enslavement/water-witches/",
+      },
+      sub: "(2017) [Compilation]",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/6f47f23ec40281938995373b97c19ec3/7950341",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Hilary Woods",
+      url: "https://rateyourmusic.com/artist/hilary-woods",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Birthmarks",
+        url: "https://rateyourmusic.com/release/album/hilary-woods/birthmarks/",
+      },
+      sub: "(2020)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/d42a288a1b49c00885cec2959e8dfcdc/7744786",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Lamentation",
+      url: "https://rateyourmusic.com/artist/lamentation",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Fullmoon Over Faerhaaven",
+        url: "https://rateyourmusic.com/release/album/lamentation/fullmoon-over-faerhaaven/",
+      },
+      sub: "(1995)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/4726cd108cb2a1962619f85997bbdcc0/5655622",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Nezaboravan san o...",
+      url: "https://rateyourmusic.com/artist/nezaboravan-san-o",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Nezaboravan san o...",
+        url: "https://rateyourmusic.com/release/album/nezaboravan-san-o/nezaboravan-san-o/",
+      },
+      sub: "(1989)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/6de582395bfc1e26b4095a6a68ac86dc/2109669",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "Angelo Badalamenti",
+      url: "https://rateyourmusic.com/artist/angelo-badalamenti",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "Twin Peaks",
+        url: "https://rateyourmusic.com/release/album/angelo-badalamenti/twin-peaks/",
+      },
+      sub: "(1990)",
+    },
+  },
+  {
+    art: {
+      src: "https://e.snmc.io/i/150/w/86233b586dff0a5c2528e05ac2a41e51/2193079",
+      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+    },
+    artist: {
+      text: "A Touch of Hysteria",
+      url: "https://rateyourmusic.com/artist/a_touch_of_hysteria",
+    },
+    description: {
+      html: "",
+      text: "",
+    },
+    release: {
+      main: {
+        text: "A Touch of Hysteria",
+        url: "https://rateyourmusic.com/release/album/a-touch-of-hysteria/a-touch-of-hysteria/",
+      },
+      sub: "(1983)",
+    },
+  },
+]
+`;

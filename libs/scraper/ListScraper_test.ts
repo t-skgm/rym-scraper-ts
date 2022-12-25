@@ -8,6 +8,9 @@ import { ListScraper } from "./ListScraper.ts";
 const htmlFile = await Deno.readTextFile(
   new URL("../../test/sample/rym_list_page_a1.html", import.meta.url)
 );
+const htmlWithEmptyRow = await Deno.readTextFile(
+  new URL("../../test/sample/rym_list_page_withEmptyRow.html", import.meta.url)
+);
 const htmlFileBlocked = await Deno.readTextFile(
   new URL("../../test/sample/rym_security_check_required.html", import.meta.url)
 );
@@ -46,6 +49,17 @@ Deno.test("成功", async (t) => {
     if (result.next.hasNext) {
       assertEquals(result.next.url, new URL(PAGE_URL + "/2/"));
     }
+  });
+});
+
+Deno.test("成功 (withEmptyRow)", async (t) => {
+  const scraper = ListScraper;
+  const page = new Page(scraper, new URL(PAGE_URL + "/1/"));
+
+  const result = scraper.run(htmlWithEmptyRow, page);
+
+  await t.step("content.items", async () => {
+    await assertSnapshot(t, result.content?.listItems);
   });
 });
 

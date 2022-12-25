@@ -154,7 +154,11 @@ const scrapeContentItems = (
             : undefined,
         description: toHtmlText(descriptionElm),
       } satisfies ListItemRelease;
-    });
+    })
+    // reject empty row
+    .filter(
+      (i) => !(i.art !== null && i.artist == null && i.description.text === "")
+    );
 
   return listItems;
 };
