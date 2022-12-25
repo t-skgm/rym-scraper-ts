@@ -6,10 +6,11 @@ import {
   ListPageContent,
 } from "../../domain/Content/ListContent.ts";
 import { ScrapedPageNext, Scraper } from "../../domain/Scraper.ts";
+import { Logger } from "../utils/logger.ts";
 
 export const ListScraper: Scraper<ListPageContent> = {
   run(html, page) {
-    console.log("[scrape] start", page.url.toString());
+    Logger.debug("[scrape] start", page.url.toString());
 
     const { document: doc } = parseHTML(html, "text/html");
 
@@ -138,7 +139,7 @@ const scrapeNextUrl = (
 ): ScrapedPageNext => {
   const nextUrlStr =
     doc?.querySelector(".navlinknext")?.getAttribute("href") ?? undefined;
-  console.log("nextUrlStr", nextUrlStr);
+  Logger.debug("nextUrlStr", nextUrlStr);
 
   return nextUrlStr != null && nextUrlStr.length !== 0
     ? {

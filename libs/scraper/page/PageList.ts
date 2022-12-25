@@ -28,8 +28,7 @@ export class PageList<Content>
           };
         }
 
-        // do fetch & scrape
-        const pageToScrapeResult = await this.pageToScrape.scrape();
+        const pageToScrapeResult = await this.pageToScrape.fetchAndScrape();
 
         if (pageToScrapeResult.next.hasNext) {
           const nextPage = new Page<Content>(

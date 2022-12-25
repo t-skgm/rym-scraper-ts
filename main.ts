@@ -4,30 +4,40 @@ import { PageList } from "./libs/scraper/page/PageList.ts";
 import { ListScraper } from "./libs/scraper/ListScraper.ts";
 import { createListURLGeneratorFromString } from "./libs/URLGenerator/ListURLGenerator.ts";
 import { sleep } from "./libs/utils/sleep.ts";
+import { Logger } from "./libs/utils/logger.ts";
 
 const main = async (args: Args) => {
   const url = args.url as string | undefined;
   if (url == null || url.length === 0) {
-    console.error("[args] No url");
+    Logger.error("[args] No url");
     Deno.exit(1);
   }
 
+  Logger.info("[main] start");
   const initialUrl = createListURLGeneratorFromString(url).run();
   const list = PageList.fromInitialURL(ListScraper, initialUrl);
 
   const contents: ListPageContent[] = [];
-  for await (const page of list) {
-    console.log(page?.content);
-    if (page?.content) contents.push(page.content);
-    await sleep(1000);
+
+  try {
+    for await (const page of list) {
+      Logger.debug(page?.content);
+      if (page?.content) contents.push(page.content);
+      await sleep(1000);
+    }
+
+    Logger.debug("[main] result", contents);
+
+    Logger.info("[main] finish");
+  } catch (err) {
+    Logger.error("[main] Error occured on scraping...", err);
+    Deno.exit(1);
   }
-  console.log("result", contents);
 };
 
 if (import.meta.main) {
   const args = parse(Deno.args, {
     string: ["url"],
   });
-
   await main(args);
 }
