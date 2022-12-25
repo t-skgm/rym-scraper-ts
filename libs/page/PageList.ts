@@ -1,4 +1,4 @@
-import { Scraper } from "../../../domain/Scraper.ts";
+import { Scraper } from "../../domain/Scraper.ts";
 import { Page, PageScrapeResult } from "./Page.ts";
 
 export class PageList<Content>

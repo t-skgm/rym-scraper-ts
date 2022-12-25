@@ -1,8 +1,8 @@
 import { Args, parse } from "https://deno.land/std@0.66.0/flags/mod.ts";
 import { ListPageContent } from "./domain/Content/ListContent.ts";
-import { PageList } from "./libs/scraper/page/PageList.ts";
+import { PageList } from "./libs/page/PageList.ts";
 import { ListScraper } from "./libs/scraper/ListScraper.ts";
-import { createListURLGeneratorFromString } from "./libs/URLGenerator/ListURLGenerator.ts";
+import { createListURLGeneratorFromString } from "./libs/urlGenerator/ListURLGenerator.ts";
 import { sleep } from "./libs/utils/sleep.ts";
 import { Logger } from "./libs/utils/logger.ts";
 import { Constants } from "./constants.ts";

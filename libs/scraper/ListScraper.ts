@@ -119,6 +119,7 @@ const scrapeContentItems = (
                   releaseArt.querySelector("img")?.getAttribute("data-src") ??
                   ""
                 }`,
+                // FIXME: なんかおかしい
                 url: urlGetter(
                   releaseArt.querySelector("a")?.getAttribute("src")
                 ).toString(),

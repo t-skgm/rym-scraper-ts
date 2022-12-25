@@ -1,7 +1,7 @@
-import { PageBase } from "../../../domain/PageBase.ts";
-import { Scraper } from "../../../domain/Scraper.ts";
-import { defaultFetcher } from "../../fetcher/Fetcher.ts";
-import { Logger } from "../../utils/logger.ts";
+import { PageBase } from "../../domain/PageBase.ts";
+import { Scraper } from "../../domain/Scraper.ts";
+import { defaultFetcher } from "../fetcher/Fetcher.ts";
+import { Logger } from "../utils/logger.ts";
 
 export type PageScrapeResult<Content> = {
   content: Content | null;

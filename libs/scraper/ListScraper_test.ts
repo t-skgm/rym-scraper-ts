@@ -2,7 +2,7 @@ import { assertEquals, assertThrows } from "testing/asserts";
 import { assertSnapshot } from "testing/snapshot";
 import * as mf from "https://deno.land/x/mock_fetch@0.3.0/mod.ts";
 
-import { Page } from "./page/Page.ts";
+import { Page } from "../page/Page.ts";
 import { ListScraper } from "../scraper/ListScraper.ts";
 
 const htmlFile = await Deno.readTextFile(
