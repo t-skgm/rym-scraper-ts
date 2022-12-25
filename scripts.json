@@ -2,7 +2,7 @@
   "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
   "scripts": {
     "start": {
-      "cmd": "main.ts",
+      "cmd": "libs/main.ts",
       "watch": false,
       "allow": [
         "net",

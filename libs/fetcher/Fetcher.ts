@@ -1,5 +1,5 @@
-import { Constants } from "../../constants.ts";
-import { Fetcher } from "../../domain/Fetcher.ts";
+import { Constants } from "../constants.ts";
+import { Fetcher } from "../domain/Fetcher.ts";
 
 export const defaultFetcher: Fetcher = {
   async getText(url) {

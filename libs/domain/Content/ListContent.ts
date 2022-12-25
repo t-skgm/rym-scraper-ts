@@ -2,6 +2,7 @@ import { HtmlText, ImageLink, TextLink } from "./common.ts";
 
 export type ListPageContent = {
   title: string;
+  author: TextLink;
   description: HtmlText;
   currentPageNum: number;
   totalPageNum: number;

@@ -3,7 +3,7 @@ import { assertSnapshot } from "testing/snapshot";
 import * as mf from "https://deno.land/x/mock_fetch@0.3.0/mod.ts";
 
 import { Page } from "../page/Page.ts";
-import { ListScraper } from "../scraper/ListScraper.ts";
+import { ListScraper } from "./ListScraper.ts";
 
 const htmlFile = await Deno.readTextFile(
   new URL("../../test/sample/rym_list_page_a1.html", import.meta.url)
@@ -35,9 +35,10 @@ Deno.test("成功", async (t) => {
     // await assertSnapshot(t, result.content?.listItems[3]);
   });
 
-  await t.step("content.title/description", async () => {
+  await t.step("content.title/description/author", async () => {
     await assertSnapshot(t, result.content?.title);
     await assertSnapshot(t, result.content?.description);
+    await assertSnapshot(t, result.content?.author);
   });
 
   await t.step("next", () => {

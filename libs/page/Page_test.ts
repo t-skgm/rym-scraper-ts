@@ -1,7 +1,7 @@
 import { assertEquals } from "testing/asserts";
 import * as mf from "https://deno.land/x/mock_fetch@0.3.0/mod.ts";
 
-import { Scraper } from "../../domain/Scraper.ts";
+import { Scraper } from "../domain/Scraper.ts";
 import { Page } from "./Page.ts";
 
 mf.install();

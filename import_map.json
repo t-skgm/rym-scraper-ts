@@ -3,6 +3,7 @@
     "linkedom": "https://esm.sh/linkedom@0.14.21",
     "testing/snapshot": "https://deno.land/std@0.168.0/testing/snapshot.ts",
     "testing/asserts": "https://deno.land/std@0.168.0/testing/asserts.ts",
-    "logger": "https://deno.land/std@0.170.0/log/mod.ts"
+    "logger": "https://deno.land/std@0.170.0/log/mod.ts",
+    "rambda": "https://mckgnjtrq3abdh6fhic5ddwopjdoxtpu2vvkyphhzwui4egizoma.arweave.net/YJRmpnGGwBGfxToF0Y7OekbrzfTVaqw8582ojhDIy5g/mod.ts"
   }
 }

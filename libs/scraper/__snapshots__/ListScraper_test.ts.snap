@@ -1040,3 +1040,10 @@ snapshot[`成功 3`] = `
   text: "A personal journal of Emo + associated genres. This list is going to be updated constantly, and will include my feelings and thoughts about individual releases, bands, labels, artwork, and et cetera. It will also include information about each band as well as contextual history or miscellaneous trivia. This list will primarily focus on discussing and compiling underrated or unfairly ignored works, typically staying outside the conventional canon of emo music. There will be exceptions, as canonized works that are crucial or key to comprehension of the genre will be included. Some Post-Hardcore releases that aren't necessarily Emocore will also be included, as long as they have notable similarities with most emotive hardcore. Everything in this list will somehow fall under the broad category of Post-Hardcore.Genres discussed in this list:Emocore, Emo, Screamo, Midwest Emo, Post-Hardcore, Hardcore Punk, Post-Rock, Emoviolence, Math RockThis list used to have an artwork archive. However, at the previous location of my archive, my account was terminated for an unknown reason. I will update this list with a new and improved artwork archive when it's feasible for me to do so. For the meantime, if you wish to see anything, send me a PM and I should be able to send you some inserts and whatnot if I have them.FIFTH WAVE EMO DOES NOT EXIST",
 }
 `;
+
+snapshot[`成功 4`] = `
+{
+  text: "foxbyrd",
+  url: "https://rateyourmusic.com/~foxbyrd",
+}
+`;

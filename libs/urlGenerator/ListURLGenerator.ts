@@ -1,5 +1,5 @@
-import { Constants } from "../../constants.ts";
-import { URLGenerator } from "../../domain/URLGenerator.ts";
+import { Constants } from "../constants.ts";
+import { URLGenerator } from "../domain/URLGenerator.ts";
 
 type ListURLGeneratorInput = {
   /** ID of user */

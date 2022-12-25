@@ -1,12 +1,12 @@
 import { parseHTML } from "linkedom";
-import { HtmlText } from "../../domain/Content/common.ts";
+import { HtmlText } from "../domain/Content/common.ts";
 import {
   ListItem,
   ListItemRelease,
   ListItemText,
   ListPageContent,
-} from "../../domain/Content/ListContent.ts";
-import { ScrapedPageNext, Scraper } from "../../domain/Scraper.ts";
+} from "../domain/Content/ListContent.ts";
+import { ScrapedPageNext, Scraper } from "../domain/Scraper.ts";
 import { Logger } from "../utils/logger.ts";
 
 export const ListScraper: Scraper<ListPageContent> = {
@@ -19,12 +19,15 @@ export const ListScraper: Scraper<ListPageContent> = {
       throw new Error("Security check required");
     }
 
-    const absoluteURL = (path: string | null | undefined) =>
+    const absoluteURLGetter = (path: string | null | undefined) =>
       new URL(path ?? "", page.url);
 
-    const contentWithoutItems = scrapeContentWithoutItems(doc);
-    const listItems = scrapeContentItems(doc, absoluteURL);
-    const next = scrapeNextUrl(doc, absoluteURL);
+    const contentWithoutItems = scrapeContentWithoutItems(
+      doc,
+      absoluteURLGetter
+    );
+    const listItems = scrapeContentItems(doc, absoluteURLGetter);
+    const next = scrapeNextUrl(doc, absoluteURLGetter);
 
     Logger.debug(
       `[scrape] next url is: ${next.hasNext && next.url.toString()}`
@@ -41,7 +44,8 @@ export const ListScraper: Scraper<ListPageContent> = {
 };
 
 const scrapeContentWithoutItems = (
-  doc: Document
+  doc: Document,
+  urlGetter: (path: string | null | undefined) => URL
 ): Omit<ListPageContent, "listItems"> => {
   const title = doc.querySelector("title")?.textContent ?? "";
   const descriptionElm = doc?.querySelector(
@@ -60,8 +64,14 @@ const scrapeContentWithoutItems = (
     10
   );
 
+  const authorElm = doc.querySelector("a.user");
+
   return {
     title,
+    author: {
+      text: authorElm?.textContent ?? "",
+      url: urlGetter(authorElm?.getAttribute("href")).toString(),
+    },
     description: toHtmlText(descriptionElm),
     totalPageNum,
     currentPageNum,
