@@ -1,8 +1,8 @@
-import { assertEquals } from "https://deno.land/std@0.168.0/testing/asserts.ts";
-import { assertSnapshot } from "https://deno.land/std@0.168.0/testing/snapshot.ts";
+import { assertEquals } from "testing/asserts";
+import { assertSnapshot } from "testing/snapshot";
 
 import { Page } from "./page/Page.ts";
-import { ListScraper } from "../Scraper/ListScraper.ts";
+import { ListScraper } from "../scraper/ListScraper.ts";
 
 const htmlFile = await Deno.readTextFile(
   new URL("../../test/sample/foxbyrd_emo-encyclopedia_1.html", import.meta.url)

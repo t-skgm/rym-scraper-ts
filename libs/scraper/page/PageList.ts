@@ -6,8 +6,8 @@ export class PageList<Content>
 {
   currentPage: Page<Content>;
 
-  constructor(readonly scraper: Scraper<Content>, init: Page<Content>) {
-    this.currentPage = init;
+  constructor(readonly scraper: Scraper<Content>, initPage: Page<Content>) {
+    this.currentPage = initPage;
   }
 
   static fromInitialURL<Content>(scraper: Scraper<Content>, initURL: URL) {
@@ -21,19 +21,27 @@ export class PageList<Content>
       currentPage: this.currentPage,
 
       async next() {
-        const scrapeResult = await this.currentPage.scrape();
+        // do fetch & scrape
+        const currentPageResult = await this.currentPage.scrape();
 
-        const page = new Page<Content>(
-          this.scraper,
-          scrapeResult.url,
-          scrapeResult.nextUrl
-        );
-        this.currentPage = page;
+        if (currentPageResult.next.hasNext) {
+          const nextPage = new Page<Content>(
+            this.scraper,
+            currentPageResult.next.url
+          );
+          this.currentPage = nextPage;
 
-        return {
-          done: !page.next.hasNext,
-          value: scrapeResult,
-        };
+          return {
+            done: false,
+            value: currentPageResult,
+          };
+        } else {
+          // 終了
+          return {
+            done: true,
+            value: currentPageResult,
+          };
+        }
       },
     };
   }

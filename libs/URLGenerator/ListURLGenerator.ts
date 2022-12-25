@@ -10,21 +10,17 @@ type ListURLGeneratorInput = {
   pageNum?: number;
 };
 
-const LIST_PATH = "/list";
-
-export const createListURLGenerator = (
-  input: ListURLGeneratorInput
-): URLGenerator => {
-  return {
-    run() {
-      // https://rateyourmusic.com/list/${userId}/${listId}/${pageNum}/
-      // ex: https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/2/
-      const url = new URL(
-        `${Constants.RYM_BASE_URL}${LIST_PATH}/${input.userId}/${
-          input.listId
-        }/${input.pageNum ?? "1"}/`
-      );
-      return url;
-    },
-  };
-};
+export const createListURLGenerator = ({
+  userId,
+  listId,
+  pageNum = 1,
+}: ListURLGeneratorInput): URLGenerator => ({
+  run() {
+    // https://rateyourmusic.com/list/${userId}/${listId}/${pageNum}/
+    // ex: https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/2/
+    const url = new URL(
+      `${Constants.RYM_BASE_URL}${Constants.RYM_LIST_PATH}/${userId}/${listId}/${pageNum}/`
+    );
+    return url;
+  },
+});
