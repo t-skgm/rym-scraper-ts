@@ -1,4 +1,5 @@
 import { parseHTML } from "linkedom";
+import { HtmlText } from "../../domain/Content/common.ts";
 import {
   ListItem,
   ListItemRelease,
@@ -24,6 +25,10 @@ export const ListScraper: Scraper<ListPageContent> = {
     const contentWithoutItems = scrapeContentWithoutItems(doc);
     const listItems = scrapeContentItems(doc, absoluteURL);
     const next = scrapeNextUrl(doc, absoluteURL);
+
+    Logger.debug(
+      `[scrape] next url is: ${next.hasNext && next.url.toString()}`
+    );
 
     return {
       content: {
@@ -57,10 +62,7 @@ const scrapeContentWithoutItems = (
 
   return {
     title,
-    description: {
-      html: descriptionElm?.innerHTML ?? "",
-      text: descriptionElm?.textContent ?? "",
-    },
+    description: toHtmlText(descriptionElm),
     totalPageNum,
     currentPageNum,
   };
@@ -97,10 +99,7 @@ const scrapeContentItems = (
               }
             : undefined,
           title: genericElm.querySelector(".generic_title")?.textContent ?? "",
-          description: {
-            html: genericElm.querySelector(".generic_desc")?.innerHTML ?? "",
-            text: genericElm.querySelector(".generic_desc")?.textContent ?? "",
-          },
+          description: toHtmlText(genericElm.querySelector(".generic_desc")),
         } satisfies ListItemText;
       }
 
@@ -113,16 +112,18 @@ const scrapeContentItems = (
       const descriptionElm = entryElm?.querySelector(":scope > span");
 
       return {
-        art: releaseArt
-          ? {
-              src: `https:${
-                releaseArt.querySelector("img")?.getAttribute("data-src") ?? ""
-              }`,
-              url: urlGetter(
-                releaseArt.querySelector("a")?.getAttribute("src")
-              ).toString(),
-            }
-          : undefined,
+        art:
+          releaseArt != null
+            ? {
+                src: `https:${
+                  releaseArt.querySelector("img")?.getAttribute("data-src") ??
+                  ""
+                }`,
+                url: urlGetter(
+                  releaseArt.querySelector("a")?.getAttribute("src")
+                ).toString(),
+              }
+            : undefined,
         artist:
           artistElm != null
             ? {
@@ -140,10 +141,7 @@ const scrapeContentItems = (
                 sub: releaseSubElm?.textContent ?? undefined,
               }
             : undefined,
-        description: {
-          html: descriptionElm?.innerHTML ?? "",
-          text: descriptionElm?.textContent ?? "",
-        },
+        description: toHtmlText(descriptionElm),
       } satisfies ListItemRelease;
     });
 
@@ -156,7 +154,6 @@ const scrapeNextUrl = (
 ): ScrapedPageNext => {
   const nextUrlStr =
     doc?.querySelector(".navlinknext")?.getAttribute("href") ?? undefined;
-  Logger.debug(`[scrape] next url is: ${nextUrlStr}`);
 
   return nextUrlStr != null && nextUrlStr.length !== 0
     ? {
@@ -168,4 +165,11 @@ const scrapeNextUrl = (
 
 const isSecurityCheckRequiredPage = (doc: Document) => {
   return doc.title === "Security check required";
+};
+
+const toHtmlText = (elm: Element | null | undefined): HtmlText => {
+  return {
+    html: elm?.innerHTML ?? "",
+    text: elm?.textContent ?? "",
+  };
 };

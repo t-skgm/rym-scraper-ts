@@ -13,8 +13,9 @@ export class Page<Content> implements PageBase<Content> {
   constructor(readonly scraper: Scraper<Content>, readonly url: URL) {}
 
   async fetchAndScrape(): Promise<PageScrapeResult<Content>> {
-    Logger.debug(`[page] ${this.url.toString()}`);
+    Logger.debug(`[page] fetch: ${this.url.toString()}`);
     const body = await defaultFetcher.getText(this.url);
+    Logger.debug(`[page] scrape: ${this.url.toString()}`);
     const result = this.scraper.run(body, this);
 
     return {
