@@ -15,6 +15,7 @@
         "write",
         "read"
       ]
-    }
+    },
+    "test:update": "denon test -- --update"
   }
 }

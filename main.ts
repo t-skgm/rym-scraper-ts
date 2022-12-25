@@ -14,11 +14,14 @@ const main = async (args: Args) => {
   }
 
   Logger.info("[main] start");
+
+  Logger.debug("[main] create url");
   const initialUrl = createListURLGeneratorFromString(url).run();
+  Logger.debug("[main] url is", initialUrl);
+
+  Logger.debug("[main] page iterating");
   const list = PageList.fromInitialURL(ListScraper, initialUrl);
-
   const contents: ListPageContent[] = [];
-
   try {
     for await (const page of list) {
       Logger.debug(page?.content);
@@ -27,6 +30,9 @@ const main = async (args: Args) => {
     }
 
     Logger.debug("[main] result", contents);
+
+    const data = JSON.stringify(contents);
+    await Deno.writeTextFile("./out/out.json", data);
 
     Logger.info("[main] finish");
   } catch (err) {

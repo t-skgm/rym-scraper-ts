@@ -95,10 +95,11 @@ const scrapeContentItems = (
       }
 
       const releaseArt = row.querySelector(".list_art");
+
       const entryElm = row.querySelector(".main_entry");
-      const artistElm = entryElm?.querySelector("h2 > a");
-      const releaseElm = entryElm?.querySelector("h3 > a");
-      const releaseSubElm = entryElm?.querySelector("h3 > span");
+      const artistElm = entryElm?.querySelector(".list_artist");
+      const releaseElm = entryElm?.querySelector(".list_album");
+      const releaseSubElm = entryElm?.querySelector(".list_album + span");
       const descriptionElm = entryElm?.querySelector(":scope > span");
 
       return {
@@ -124,7 +125,7 @@ const scrapeContentItems = (
           sub: releaseSubElm?.textContent ?? undefined,
         },
         description: {
-          html: descriptionElm?.textContent ?? "",
+          html: descriptionElm?.innerHTML ?? "",
           text: descriptionElm?.textContent ?? "",
         },
       } satisfies ListItemRelease;
