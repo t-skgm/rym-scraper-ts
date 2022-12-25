@@ -1,0 +1,19 @@
+{
+  "$schema": "https://deno.land/x/denon@2.5.0/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "main.ts",
+      "allow": [
+        "net",
+        "write"
+      ]
+    },
+    "test": {
+      "cmd": "deno test ./ --watch",
+      "allow": [
+        "write",
+        "read"
+      ]
+    }
+  }
+}

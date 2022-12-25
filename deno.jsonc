@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable"
+    ],
+    "noUncheckedIndexedAccess": true
+  },
+  "importMap": "./import_map.json"
+}
