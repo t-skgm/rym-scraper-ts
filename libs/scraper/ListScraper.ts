@@ -14,6 +14,10 @@ export const ListScraper: Scraper<ListPageContent> = {
 
     const { document: doc } = parseHTML(html, "text/html");
 
+    if (isSecurityCheckRequiredPage(doc)) {
+      throw new Error("Security check required");
+    }
+
     const absoluteURL = (path: string | null | undefined) =>
       new URL(path ?? "", page.url);
 
@@ -160,4 +164,8 @@ const scrapeNextUrl = (
         url: urlGetter(nextUrlStr),
       }
     : { hasNext: false };
+};
+
+const isSecurityCheckRequiredPage = (doc: Document) => {
+  return doc.title === "Security check required";
 };

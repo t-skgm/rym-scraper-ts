@@ -1,5 +1,7 @@
 export const Constants = {
   RYM_BASE_URL: "https://rateyourmusic.com",
   RYM_LIST_PATH: "/list",
-  WAIT_MS_EACH_ACCESS: 1000,
+  WAIT_MS_EACH_ACCESS: 3000,
+  FETCH_UA:
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
 } as const;
