@@ -2,12 +2,12 @@ import { Scraper } from "../../../domain/Scraper.ts";
 import { Page, PageScrapeResult } from "./Page.ts";
 
 export class PageList<Content>
-  implements AsyncIterable<PageScrapeResult<Content>>
+  implements AsyncIterable<PageScrapeResult<Content> | undefined>
 {
-  currentPage: Page<Content>;
+  pageToScrape: Page<Content>;
 
   constructor(readonly scraper: Scraper<Content>, initPage: Page<Content>) {
-    this.currentPage = initPage;
+    this.pageToScrape = initPage;
   }
 
   static fromInitialURL<Content>(scraper: Scraper<Content>, initURL: URL) {
@@ -18,30 +18,33 @@ export class PageList<Content>
   [Symbol.asyncIterator]() {
     return {
       scraper: this.scraper,
-      currentPage: this.currentPage,
+      pageToScrape: this.pageToScrape as Page<Content> | undefined,
 
       async next() {
-        // do fetch & scrape
-        const currentPageResult = await this.currentPage.scrape();
-
-        if (currentPageResult.next.hasNext) {
-          const nextPage = new Page<Content>(
-            this.scraper,
-            currentPageResult.next.url
-          );
-          this.currentPage = nextPage;
-
-          return {
-            done: false,
-            value: currentPageResult,
-          };
-        } else {
-          // 終了
+        if (this.pageToScrape === undefined) {
           return {
             done: true,
-            value: currentPageResult,
+            value: undefined,
           };
         }
+
+        // do fetch & scrape
+        const pageToScrapeResult = await this.pageToScrape.scrape();
+
+        if (pageToScrapeResult.next.hasNext) {
+          const nextPage = new Page<Content>(
+            this.scraper,
+            pageToScrapeResult.next.url
+          );
+          this.pageToScrape = nextPage;
+        } else {
+          this.pageToScrape = undefined;
+        }
+
+        return {
+          done: false,
+          value: pageToScrapeResult,
+        };
       },
     };
   }

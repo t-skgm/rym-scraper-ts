@@ -11,7 +11,6 @@ export type PageScrapeResult<Content> = {
 export class Page<Content> implements PageBase<Content> {
   constructor(readonly scraper: Scraper<Content>, readonly url: URL) {}
 
-  // deno-lint-ignore require-await
   async scrape(): Promise<PageScrapeResult<Content>> {
     console.log("[page]", this.url.toString());
     const body = await defaultFetcher.getText(this.url);

@@ -3,6 +3,7 @@
   "scripts": {
     "start": {
       "cmd": "main.ts",
+      "watch": false,
       "allow": [
         "net",
         "write"
