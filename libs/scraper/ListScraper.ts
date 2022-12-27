@@ -1,5 +1,5 @@
 import { parseHTML } from "linkedom";
-import { HtmlText } from "../domain/Content/common.ts";
+import { HtmlText, ImageLink } from "../domain/Content/common.ts";
 import {
   ListItem,
   ListItemRelease,
@@ -8,6 +8,8 @@ import {
 } from "../domain/Content/ListContent.ts";
 import { ScrapedPageNext, Scraper } from "../domain/Scraper.ts";
 import { Logger } from "../utils/logger.ts";
+
+type URLBuilder = (path: string | null | undefined) => URL;
 
 export const ListScraper: Scraper<ListPageContent> = {
   run(html, page) {
@@ -19,15 +21,15 @@ export const ListScraper: Scraper<ListPageContent> = {
       throw new Error("Security check required");
     }
 
-    const absoluteURLGetter = (path: string | null | undefined) =>
+    const absoluteUrlBuilder: URLBuilder = (path) =>
       new URL(path ?? "", page.url);
 
     const contentWithoutItems = scrapeContentWithoutItems(
       doc,
-      absoluteURLGetter
+      absoluteUrlBuilder
     );
-    const listItems = scrapeContentItems(doc, absoluteURLGetter);
-    const next = scrapeNextUrl(doc, absoluteURLGetter);
+    const listItems = scrapeContentItems(doc, absoluteUrlBuilder);
+    const next = scrapeNextUrl(doc, absoluteUrlBuilder);
 
     Logger.debug(
       `[scrape] next url is: ${next.hasNext && next.url.toString()}`
@@ -45,7 +47,7 @@ export const ListScraper: Scraper<ListPageContent> = {
 
 const scrapeContentWithoutItems = (
   doc: Document,
-  urlGetter: (path: string | null | undefined) => URL
+  urlBuilder: URLBuilder
 ): Omit<ListPageContent, "listItems"> => {
   const title = doc.querySelector("title")?.textContent ?? "";
   const descriptionElm = doc?.querySelector(
@@ -70,7 +72,7 @@ const scrapeContentWithoutItems = (
     title,
     author: {
       text: authorElm?.textContent ?? "",
-      url: urlGetter(authorElm?.getAttribute("href")).toString(),
+      url: urlBuilder(authorElm?.getAttribute("href")).toString(),
     },
     description: toHtmlText(descriptionElm),
     totalPageNum,
@@ -80,7 +82,7 @@ const scrapeContentWithoutItems = (
 
 const scrapeContentItems = (
   doc: Document,
-  urlGetter: (path: string | null | undefined) => URL
+  urlBuilder: URLBuilder
 ): ListPageContent["listItems"] => {
   const itemRows = Array.from(doc?.querySelectorAll("#user_list tr") ?? []);
 
@@ -103,7 +105,7 @@ const scrapeContentItems = (
                   releaseArt.querySelector("img")?.getAttribute("data-src") ??
                   ""
                 }`,
-                url: urlGetter(
+                url: urlBuilder(
                   releaseArt.querySelector("a")?.getAttribute("src")
                 ).toString(),
               }
@@ -113,7 +115,7 @@ const scrapeContentItems = (
         } satisfies ListItemText;
       }
 
-      const releaseArt = row.querySelector(".list_art");
+      const artItemElm = row.querySelector(".list_art");
 
       const entryElm = row.querySelector(".main_entry");
       const artistElm = entryElm?.querySelector(".list_artist");
@@ -122,24 +124,12 @@ const scrapeContentItems = (
       const descriptionElm = entryElm?.querySelector(":scope > span");
 
       return {
-        art:
-          releaseArt != null
-            ? {
-                src: `https:${
-                  releaseArt.querySelector("img")?.getAttribute("data-src") ??
-                  ""
-                }`,
-                // FIXME: なんかおかしい
-                url: urlGetter(
-                  releaseArt.querySelector("a")?.getAttribute("src")
-                ).toString(),
-              }
-            : undefined,
+        art: scrapeArtImageLink(artItemElm, urlBuilder),
         artist:
           artistElm != null
             ? {
                 text: artistElm?.innerHTML ?? "",
-                url: urlGetter(artistElm?.getAttribute("href")).toString(),
+                url: urlBuilder(artistElm?.getAttribute("href")).toString(),
               }
             : undefined,
         release:
@@ -147,7 +137,7 @@ const scrapeContentItems = (
             ? {
                 main: {
                   text: releaseElm?.innerHTML ?? "",
-                  url: urlGetter(releaseElm?.getAttribute("href")).toString(),
+                  url: urlBuilder(releaseElm?.getAttribute("href")).toString(),
                 },
                 sub: releaseSubElm?.textContent ?? undefined,
               }
@@ -157,7 +147,7 @@ const scrapeContentItems = (
     })
     // reject empty row
     .filter(
-      (i) => !(i.art !== null && i.artist == null && i.description.text === "")
+      (i) => !(i.art == null && i.artist == null && i.description.text === "")
     );
 
   return listItems;
@@ -165,7 +155,7 @@ const scrapeContentItems = (
 
 const scrapeNextUrl = (
   doc: Document,
-  urlGetter: (path: string | null | undefined) => URL
+  urlBuilder: URLBuilder
 ): ScrapedPageNext => {
   const nextUrlStr =
     doc?.querySelector(".navlinknext")?.getAttribute("href") ?? undefined;
@@ -173,9 +163,22 @@ const scrapeNextUrl = (
   return nextUrlStr != null && nextUrlStr.length !== 0
     ? {
         hasNext: true,
-        url: urlGetter(nextUrlStr),
+        url: urlBuilder(nextUrlStr),
       }
     : { hasNext: false };
+};
+
+const scrapeArtImageLink = (
+  artItemElm: Element | null | undefined,
+  urlBuilder: URLBuilder
+): ImageLink | undefined => {
+  if (artItemElm == null) return undefined;
+  const imgSrc = artItemElm.querySelector("img")?.getAttribute("data-src");
+  const anchorHref = artItemElm.querySelector("a")?.getAttribute("href");
+  return {
+    src: imgSrc != null ? `https:${imgSrc}` : "",
+    url: anchorHref != null ? urlBuilder(anchorHref).toString() : "",
+  };
 };
 
 const isSecurityCheckRequiredPage = (doc: Document) => {

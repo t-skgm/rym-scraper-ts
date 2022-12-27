@@ -7,6 +7,7 @@ import { PageList } from "../page/PageList.ts";
 import { Logger } from "../utils/logger.ts";
 import { sleep } from "../utils/sleep.ts";
 
+// FIXME: ETLな名前にする？
 export class ListWorker implements Worker {
   constructor(
     readonly initialUrl: URL,
@@ -63,7 +64,10 @@ export class ListWorker implements Worker {
 
   filenamePrefix() {
     const author = this.contents[0]?.author.text ?? "author";
-    const title = this.contents[0]?.title.substring(0, 20) ?? "list";
+    const title =
+      this.contents[0]?.title
+        .replace(/ - Rate Your Music$/, "")
+        .substring(0, 30) ?? "list";
     return `${author} - ${title}`;
   }
 }

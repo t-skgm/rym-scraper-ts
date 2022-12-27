@@ -24,7 +24,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1b9d40c447ff2fc963c79c42831b89ad/6117097",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/125-rue-montmartre/125-rue-montmartre/",
     },
     artist: {
       text: "125, Rue Montmartre",
@@ -45,7 +45,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/26fc5211f86b78149c59b2b6200701ad/7537710",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/125-rue-montmartre/discography/",
     },
     artist: {
       text: "125, Rue Montmartre",
@@ -66,7 +66,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/fd110a03ceb951d78ed012d45039a707/8018106",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/unauth/ache-hour-credo/discography/",
     },
     artist: {
       text: "Ache Hour Credo",
@@ -87,7 +87,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1684060ca1b147c8eb98aecd078883ef/5431396",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/american_football/american_football_f1/",
     },
     artist: {
       text: "American Football",
@@ -108,7 +108,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/baca602f52b9194b79f5bf0c1720f711/3051800",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/breakwater/breakwater/",
     },
     artist: {
       text: "Breakwater",
@@ -129,7 +129,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a537183553f6c282e0de600ad0de6329/5640853",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/breakwater/demo/",
     },
     artist: {
       text: "Breakwater",
@@ -150,7 +150,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/257f56ee797712e3cf1479788755c6d8/5505644",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/capn-jazz/burritos-inspiration-point-fork-balloon-sports-cards-in-the-spokes-automatic-biographies-kites-kung-fu-trophies-banana-peels-weve-slipped-on-and-egg-shells-weve-tippy-toed-over/",
     },
     artist: {
       text: "Cap'n Jazz",
@@ -171,7 +171,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/f5913406b97c1b06ad86bc17f64b03f0/8804523",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/childrens-letters-to-god/pulling-the-knife-out-of-my-back/",
     },
     artist: {
       text: "Children's Letters to God",
@@ -192,7 +192,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8ca6fa4906a8ad015b534005af7941ff/8581765",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/closer/closer/",
     },
     artist: {
       text: "Closer",
@@ -213,7 +213,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/fb9f6b66ffbd73765d5d5dd654c6f0bd/2536251",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/closure/closure-2/",
     },
     artist: {
       text: "Closure",
@@ -234,7 +234,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/dff1fc2434aad94358013873612e7af2/2091691",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/coleman/coleman/",
     },
     artist: {
       text: "Coleman",
@@ -255,7 +255,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/c3a80a1cca0f71850b5a5089481d9743/5523896",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/colossus-of-roads/colossus-of-roads/",
     },
     artist: {
       text: "Colossus of Roads",
@@ -276,7 +276,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d6e4ca47c1bb71bcd94ef7a6e5ebc293/6666320",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/eldritch-anisette/eldritch-anisette/",
     },
     artist: {
       text: "Eldritch Anisette",
@@ -297,7 +297,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1d3391e457fc799267ee9ef25eac421f/4745234",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/elements-of-need/elements-of-need/",
     },
     artist: {
       text: "Elements of Need",
@@ -318,7 +318,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d2aa82da7fc9835a994f36730dce4305/5896478",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/endive/endive/",
     },
     artist: {
       text: "Endive",
@@ -339,7 +339,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/4ee3b046c2084ecdccda8a679576f085/7175137",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/eurich/discography/",
     },
     artist: {
       text: "Eurich",
@@ -360,7 +360,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/befe498330d3e6c706d616e2330587df/2042004",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/evergreen/these-last-days/",
     },
     artist: {
       text: "Evergreen",
@@ -381,7 +381,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/96170a978184aea8fa654c0d1d981b04/3548114",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/everyone-asked-about-you/everyone-asked-about-you/",
     },
     artist: {
       text: "Everyone Asked About You",
@@ -402,7 +402,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/5d49f2bd26ce7dc3bad82115641d688a/7560130",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/floral-patterns/the-time-it-takes-to-get-from-place-to-place-and-how-people-change/",
     },
     artist: {
       text: "Floral Patterns",
@@ -423,7 +423,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/4f6fd1c5f894111043032574952ce5fa/10126838",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/frail-body/a-brief-memoriam/",
     },
     artist: {
       text: "Frail Body",
@@ -444,7 +444,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/011e672ec463ccfcf1a4559a658e2a45/10112714",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/frail-hands/frail-hands/",
     },
     artist: {
       text: "Frail Hands",
@@ -465,7 +465,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/7116c9ee4c2d4ee56dcc8cc21e84cc2e/8967339",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/friends-unseen/friends-unseen/",
     },
     artist: {
       text: "Friends Unseen",
@@ -486,7 +486,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/284d6baa17e5c518ec69e7978e2d1e87/8860407",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/the-gangplansisteele-quartet/the-gangplansisteele-quartet/",
     },
     artist: {
       text: "The Gangplansisteele Quartet",
@@ -507,7 +507,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/921fda9ec0f1c217508ae1a071a2b5ba/1930841",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/garrison/the-bend-before-the-break/",
     },
     artist: {
       text: "Garrison",
@@ -528,7 +528,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d8acd627a12c3e56c80a5602c173d638/10107516",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/gillian-carter/_this-earth-shaped-tomb/",
     },
     artist: {
       text: "Gillian Carter",
@@ -549,7 +549,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a1238166e101a542c9cf62670fa61ec7/4668120",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/gregor/gregor/",
     },
     artist: {
       text: "Gregor",
@@ -570,7 +570,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/006dc6950de7d1ace276d2b6ba0ca262/3899560",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/the-guns-of-august/the-guns-of-august/",
     },
     artist: {
       text: "The Guns of August",
@@ -591,7 +591,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e627e6df1c9f5f4b3089811a578eafd8/10466096",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/harrison-bergeron/dead-bergeron/",
     },
     artist: {
       text: "Harrison Bergeron",
@@ -612,7 +612,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/24ded439dd6211190cf2fafef562c453/1343465",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/i_hate_myself/4_songs/",
     },
     artist: {
       text: "I Hate Myself",
@@ -633,7 +633,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/c17cf2f0dd3c70b4d3809bda82ad706e/10003520",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/i-hate-myself/10-songs/",
     },
     artist: {
       text: "I Hate Myself",
@@ -654,7 +654,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/998cab79af72961ed081a16a92f1f481/7629342",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/hated/hated/",
     },
     artist: {
       text: "Hated",
@@ -675,7 +675,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1fe5708e8b4b0e9c3cdc730da0e02e84/1359582",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/the-hated/no-more-we-cry/",
     },
     artist: {
       text: "The Hated",
@@ -696,7 +696,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1edea587816b2b547277a4d3202e4a13/7076276",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/infant-island/infant-island/",
     },
     artist: {
       text: "Infant Island",
@@ -717,7 +717,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/045281b55497322a839a05c06c2b427e/8103253",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/infant-island/beneath/",
     },
     artist: {
       text: "Infant Island",
@@ -738,7 +738,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/307a7b24fe5af9be3dafa555213b4693/8125189",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/infant-island/sepulcher/",
     },
     artist: {
       text: "Infant Island",
@@ -759,7 +759,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d4bf050e39c8a4f091982fd1976db70b/1487349",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/jeromes-dream/seeing-means-more-than-safety/",
     },
     artist: {
       text: "Jeromes Dream",
@@ -780,7 +780,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/6cf0ed464fa6d328b024cde352bb2a2d/7525834",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/jeromes-dream/presents/",
     },
     artist: {
       text: "Jeromes Dream",
@@ -801,7 +801,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/86987aefaedae8f43cd9dfd5d217cf7c/7642383",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/jeromes-dream/lp/",
     },
     artist: {
       text: "Jeromes Dream",
@@ -822,7 +822,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d6888f3c6df57c3934d8590612ed909e/5945669",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/jonah_f4/jonah/",
     },
     artist: {
       text: "Jonah",
@@ -843,7 +843,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/67f05d4b01aecbea9053d09bf76da6da/2241817",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/jupiter-lander/jupiter-lander/",
     },
     artist: {
       text: "Jupiter Lander",
@@ -864,7 +864,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/4f29a3b139edd04cef7bc259ea4beee7/7422251",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/ligod/four-excerpts-from-a-childs-diary/",
     },
     artist: {
       text: "LigOD",
@@ -885,7 +885,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/89166d66b1c3a7170f4f708d169d1e19/8732458",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/little-whales/an-exercise-in-patience/",
     },
     artist: {
       text: "Little Whales",
@@ -906,7 +906,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/b28f248211ebd85765e23ef5bf511aaf/2965609",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/lonely-broken-radio/american-science-series/",
     },
     artist: {
       text: "Lonely Broken Radio",
@@ -927,7 +927,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/dee4aba552f0605d5db4448e46cb641e/1749812",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/lync/these-are-not-fall-colors/",
     },
     artist: {
       text: "Lync",
@@ -948,7 +948,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/f204afb21e631cd8d85e4dda63f2d9b7/1308907",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/lync/remembering-the-fireballs-part-8-1/",
     },
     artist: {
       text: "Lync",
@@ -969,7 +969,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/26978beb5b41a31d4e5d83463927634f/2213241",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/the_man_i_fell_in_love_with/the_dignity_workshop__for_two_/",
     },
     artist: {
       text: "The Man I Fell in Love With",
@@ -990,7 +990,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/b60aa8dcdffc737abb652785ed5cd170/5804096",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/a-minor-forest/flemish-altruism-constituent-parts-1993-1996/",
     },
     artist: {
       text: "A Minor Forest",
@@ -1011,7 +1011,7 @@ snapshot[`成功 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1ad7ccfe5ac9567f4b2bf913feddd678/2184126",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/mohinder/o-nation-you-bleed-from-many-wounds-1896/",
     },
     artist: {
       text: "Mohinder",
@@ -1053,7 +1053,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/46e8a73d6ac2488acdc5cc61c7b30a77/3821503",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/giles-corey/giles-corey/",
     },
     artist: {
       text: "Giles Corey",
@@ -1074,7 +1074,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/33d4d8d35cd87680c2d833370651d27e/3154317",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/scott-walker/the-drift/",
     },
     artist: {
       text: "Scott Walker",
@@ -1095,7 +1095,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/3500bef1a6d44d298ced2af01e031ab1/1689852",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/the-cure/faith/",
     },
     artist: {
       text: "The Cure",
@@ -1116,7 +1116,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8596e4be20b032f68ce396ea0efd6e9e/5260760",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/set-fire-to-flames/sings-reign-rebuilder/",
     },
     artist: {
       text: "Set Fire to Flames",
@@ -1137,7 +1137,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/02d4e72ea2de3bc74a0d1c8b5bf45dee/9479297",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/abysmal-grief/funeral-cult-of-personality/",
     },
     artist: {
       text: "Abysmal Grief",
@@ -1158,7 +1158,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/68babbf76f69ac3a6db34ae1f820b581/2508340",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/loreena-mckennitt/the-mask-and-mirror/",
     },
     artist: {
       text: "Loreena McKennitt",
@@ -1179,7 +1179,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/728bb41684e04a568ee439b7a02f510b/7175135",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/dominant-patri/heroes-glory-demo/",
     },
     artist: {
       text: "Dominant Patri",
@@ -1200,7 +1200,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/2f595263dcd4102cc6fb69b17bf8152b/10292711",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/old-tower/tales-of-the-mad-moon/",
     },
     artist: {
       text: "Old Tower",
@@ -1221,7 +1221,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/bbf0c258fa1461cc011338c5ddb12790/7018215",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/fiendish-imp/fiendish-imp/",
     },
     artist: {
       text: "Fiendish Imp",
@@ -1242,7 +1242,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8b63c0bd2cc8a889cb8477b92927d964/1551603",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/bobby-boris-pickett-and-the-crypt-kickers/monster-mash-monsters-mash-party/",
     },
     artist: {
       text: 'Bobby "Boris" Pickett &amp; The Crypt-Kickers',
@@ -1263,7 +1263,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e38fc5fa9383b0824d221138def405b1/1306203",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/dark-sanctuary/letre-las-lenvers-du-miroir/",
     },
     artist: {
       text: "Dark Sanctuary",
@@ -1284,7 +1284,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e3da9c366e6a4254d99b300c5b94e98f/5385566",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/the_local_moon/the_local_moon/",
     },
     artist: {
       text: "The Local Moon",
@@ -1305,7 +1305,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/844111e5ed50cd7f19f8739853edd1d4/3642541",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/empyrium/songs-of-moors-and-misty-fields/",
     },
     artist: {
       text: "Empyrium",
@@ -1326,7 +1326,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/0b119d9cc712b4f0ff78271bcd6ffc1f/10225698",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/eros/a-southern-code/",
     },
     artist: {
       text: "Eros",
@@ -1347,7 +1347,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/b411a5fa1f0ee293eb4e4c30954aa122/10119902",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/kubler-ross/kubler-ross-1/",
     },
     artist: {
       text: "Kübler-Ross",
@@ -1368,7 +1368,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/533aa26ffd03d8b233d85a002b519b8e/10093790",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/diamanda-galas/broken-gargoyles/",
     },
     artist: {
       text: "Diamanda Galás",
@@ -1389,7 +1389,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/f7e5dbc45c3edcac49ef1d5216566657/4970765",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/eleven_pond/assemblage/",
     },
     artist: {
       text: "Eleven Pond",
@@ -1410,7 +1410,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/57587d937785d322da6e12cd6434c43b/1870305",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/invisible-limits/devil-dance/",
     },
     artist: {
       text: "Invisible Limits",
@@ -1430,8 +1430,8 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   },
   {
     art: {
-      src: "https:",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      src: "",
+      url: "",
     },
     artist: {
       text: "Small-Town Boys",
@@ -1452,7 +1452,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/3176906233e292c1bf3760a7473c5546/6235169",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/altar-de-fey/echoes-in-the-corridor/",
     },
     artist: {
       text: "Altar de Fey",
@@ -1473,7 +1473,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a94cf42f6e7fb9814baa363d95f12a21/2659051",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/13th-chime/the-singles-1981-1983/",
     },
     artist: {
       text: "13th Chime",
@@ -1494,7 +1494,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a227e5236475bdf66a221e05972ff33d/8654928",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/figure-section/spectre/",
     },
     artist: {
       text: "Figure Section",
@@ -1515,7 +1515,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/c088d3d66a656efbfb0cc2c5832f1018/10184010",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/die-welttraumforscher/liederbuch/",
     },
     artist: {
       text: "Die Welttraumforscher",
@@ -1536,7 +1536,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/91e54423875dc015774d1308ac019afd/8987061",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/die-welttraumforscher/a-young-persons-guide-to-the-early-welttraumforscher/",
     },
     artist: {
       text: "Die Welttraumforscher",
@@ -1557,7 +1557,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/4e0be1877746b7b2ec900e648c11c3c0/9937404",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/the-cats-miaow/songs-94-98/",
     },
     artist: {
       text: "The Cat's Miaow",
@@ -1578,7 +1578,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/cda26c999303c125bdd8c156ceea8432/9923239",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/blind-seagull/personal-decay/",
     },
     artist: {
       text: "Blind Seagull",
@@ -1599,7 +1599,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/9ecc21271e6d0d216015e7055bcd15ae/2060188",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/this_ascension/light_and_shade/",
     },
     artist: {
       text: "This Ascension",
@@ -1620,7 +1620,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e4ed1b0c720ef099a25679e40110a53d/1695246",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/this_ascension/tears_in_rain/",
     },
     artist: {
       text: "This Ascension",
@@ -1641,7 +1641,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/61ab2688796894ce9d12c377cce140b7/2698376",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/coil/moons-milk-in-four-phases/",
     },
     artist: {
       text: "Coil",
@@ -1662,7 +1662,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/9fee552954998798f3aebc71d024ef44/9780780",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/incipientium/study-in-still-life/",
     },
     artist: {
       text: "Incipientium",
@@ -1683,7 +1683,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/68e30fab31194a1f0e4a9a62e1724867/3217797",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/cabaret-voltaire/red-mecca/",
     },
     artist: {
       text: "Cabaret Voltaire",
@@ -1704,7 +1704,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1564b49e1b745d810fb6aab209df4d5d/7494013",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/cabaret-voltaire/the-living-legends/",
     },
     artist: {
       text: "Cabaret Voltaire",
@@ -1725,7 +1725,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/f896fb877ef440d9d6623de5a4a7d0b7/10042962",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/minimalviolence/phase-three/",
     },
     artist: {
       text: "minimalviolence",
@@ -1746,7 +1746,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/749c01827a7f97506c6a632e333c1907/2462839",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/the-candles-burning-blue/pearls-given-to-the-swine/",
     },
     artist: {
       text: "The Candles Burning Blue",
@@ -1767,7 +1767,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/2324bb8c895ecc54f4f6bcc6cd2565c2/1791154",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/the-conet-project/recordings-of-shortwave-numbers-stations/",
     },
     artist: {
       text: "The Conet Project",
@@ -1788,7 +1788,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a69c348cf53ea36a6aef4afd43ebe184/9899585",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/samuel-kerridge/kick-to-kill/",
     },
     artist: {
       text: "Samuel Kerridge",
@@ -1809,7 +1809,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/0c83a7743481b9b833f54ae16a82ffc8/9995031",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/various-artists/sintomas-de-techno-ondas-electronicas-subterraneas-desde-peru-1985-1991/",
     },
     artist: {
       text: "Various Artists",
@@ -1830,7 +1830,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/fac943fa374363d223271ed44d4cf6b7/8139978",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/pavel-milyakov/masse-metal/",
     },
     artist: {
       text: "Pavel Milyakov",
@@ -1851,7 +1851,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/fb38b89d8f192c31b8dcd52c6a019c87/5371722",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/pharmakon/bestial-burden/",
     },
     artist: {
       text: "Pharmakon",
@@ -1872,7 +1872,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8402b873e2ec75a37f74f0cdee26a540/9560775",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/current-93/if-a-city-is-set-upon-a-hill/",
     },
     artist: {
       text: "Current 93",
@@ -1893,7 +1893,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/278151701df0437c70ee8431a15ceef0/7147710",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/bauhaus/the-bela-session/",
     },
     artist: {
       text: "Bauhaus",
@@ -1914,7 +1914,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/68040332f6de36a65c587b93396ccb1a/1560926",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/diamanda_galas/the_divine_punishment/",
     },
     artist: {
       text: "Diamanda Galás",
@@ -1935,7 +1935,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/71fcdb8f2e26e011598a91e2f42ef262/2104362",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/the-sisters-of-mercy/some-girls-wander-by-mistake/",
     },
     artist: {
       text: "The Sisters of Mercy",
@@ -1956,7 +1956,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/6656e3d6eae3d33934164e9a0a957dba/9341878",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/of-the-wand-and-the-moon/your-love-cant-hold-this-wreath-of-sorrow/",
     },
     artist: {
       text: "Of the Wand and the Moon",
@@ -1977,7 +1977,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/963362c3100b689b85e1d4dd502d892f/7797937",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/twin-tribes/ceremony/",
     },
     artist: {
       text: "Twin Tribes",
@@ -1998,7 +1998,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/252743351800caf42d84a668b068ce52/7014960",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/twin-tribes/shadows/",
     },
     artist: {
       text: "Twin Tribes",
@@ -2019,7 +2019,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d9e742b049a402ae2ab25e2d68fc2170/4404209",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/she-past-away/belirdi-gece/",
     },
     artist: {
       text: "She Past Away",
@@ -2040,7 +2040,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/5412eddd936aa4a6479da60bd8510635/9753608",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/freundliche-kreisel/freundliche-kreisel/",
     },
     artist: {
       text: "Freundliche Kreisel",
@@ -2061,7 +2061,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a9d7193a62cdd537afb9d3042e12f3c7/8166959",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/%D0%BC%D0%BE%D0%BB%D1%87%D0%B0%D1%82-%D0%B4%D0%BE%D0%BC%D0%B0/%D1%8D%D1%82%D0%B0%D0%B6%D0%B8-etazhi/",
     },
     artist: {
       text: 'Молчат Дома <span class="subtext">[Molchat Doma]</span>',
@@ -2082,7 +2082,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/5d5cf4312e9d69583550bd2b8f906f1c/8134470",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/claustrum/funeral-fugues-and-reminiscence-%E2%80%A0-1992-1997/",
     },
     artist: {
       text: "Claustrum",
@@ -2103,7 +2103,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d64c79ad9f571a3e71fb813502cacdba/9761110",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/height_dismay/height_dismay/",
     },
     artist: {
       text: "Height/Dismay",
@@ -2124,7 +2124,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8dae51e13e85ebbd666006adcf9f3924/2763523",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/cocteau-twins/the-pink-opaque/",
     },
     artist: {
       text: "Cocteau Twins",
@@ -2145,7 +2145,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/12219eb3c1f02e577f3c1163b497b774/7247037",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/carola-baer/the-story-of-valerie/",
     },
     artist: {
       text: "Carola Baer",
@@ -2166,7 +2166,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/3d479b6320e93e79a088628f9eda172b/9767127",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/jimmy-smack/death-is-certain/",
     },
     artist: {
       text: "Jimmy Smack",
@@ -2187,7 +2187,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/97097b15c4807ac504300ff41755b925/9638492",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/dali-muru-and-the-polyphonic-swarm/dali-muru-and-the-polyphonic-swarm/",
     },
     artist: {
       text: "Dali Muru &amp; The Polyphonic Swarm",
@@ -2208,7 +2208,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a1b402e7b8d8daad71ec30f9a4fde746/8540817",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/john-maus/bennington/",
     },
     artist: {
       text: "John Maus",
@@ -2229,7 +2229,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/c1e3e513e10bac0866ee8dbd9d00fc31/2454314",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/for-against/in-the-marshes/",
     },
     artist: {
       text: "For Against",
@@ -2250,7 +2250,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/bd9632c69ead61b081224983f24f0e1f/2135873",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/various-artists/radionome/",
     },
     artist: {
       text: "Various Artists",
@@ -2271,7 +2271,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/6cc2c566ae76a3c0f67983a1881975db/9643242",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/lauten-der-seele/lauten-der-seele/",
     },
     artist: {
       text: "Läuten der Seele",
@@ -2292,7 +2292,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/31945d47ee6c577e5f66d994498f67ef/2285283",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/liaisons-dangereuses/liaisons-dangereuses/",
     },
     artist: {
       text: "Liaisons Dangereuses",
@@ -2313,7 +2313,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a5bdd90c8e93b84af5c20adc61b76d27/5369927",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/afterimage/strange-confession/",
     },
     artist: {
       text: "Afterimage",
@@ -2334,7 +2334,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/9095d5052d33aa32383667b8614beda6/1588914",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/visage/fade-to-grey-the-steps/",
     },
     artist: {
       text: "Visage",
@@ -2355,7 +2355,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8f7ca9af89e2bdc9b9368ca88d1b181d/5029425",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/weep__omine_eyes/a_beautiful_memory_lingers/",
     },
     artist: {
       text: "Weep, O'Mine Eyes",
@@ -2376,7 +2376,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e1e5d579a57ae1d364e95926612ed27b/9526132",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/anna-von-hausswolff/live-at-montreux-jazz-festival/",
     },
     artist: {
       text: "Anna von Hausswolff",
@@ -2397,7 +2397,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/c86b41d6fcb6fed3eebf18e517db5526/6426504",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/dominique-lawalree/first-meeting/",
     },
     artist: {
       text: "Dominique Lawalrée",
@@ -2418,7 +2418,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/3055566a4e6c5797eb36fd8e4cb37a9d/9164587",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/from-nursery-to-misery/tree-spirits/",
     },
     artist: {
       text: "From Nursery to Misery",
@@ -2439,7 +2439,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d39796959ff958b8b1b5d9782327e4e6/9005886",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/dot-allison/heart-shaped-scars/",
     },
     artist: {
       text: "Dot Allison",
@@ -2460,7 +2460,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/62b6eb444c0e920710230a985555d786/1729009",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/sad-lovers-and-giants/lost-in-a-moment-the-tightrope-touch/",
     },
     artist: {
       text: "Sad Lovers &amp; Giants",
@@ -2481,7 +2481,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a9d456a184b968714fe963fdd5e02f01/9569761",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/darkside/spiral/",
     },
     artist: {
       text: "Darkside",
@@ -2502,7 +2502,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/32f925edc1af4206f35e7cbb470fcea6/3657484",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/timber-timbre/creep-on-creepin-on/",
     },
     artist: {
       text: "Timber Timbre",
@@ -2523,7 +2523,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/4d839674fd214a238c00204be02da3a0/2077478",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/grauzone/grauzone/",
     },
     artist: {
       text: "Grauzone",
@@ -2544,7 +2544,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/58793bfb2380e6adecb7e31e0fb8562a/6183309",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/accident-du-travail/tres-precieux-sang/",
     },
     artist: {
       text: "Accident du travail",
@@ -2565,7 +2565,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/87ddee573a558ffedf8eb7a88b1beee6/6930328",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/decades/hell-enderlein/",
     },
     artist: {
       text: "Decades",
@@ -2586,7 +2586,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e80c7bf84fbd5d6c82cd31037e7d6ff2/2171195",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/the-smiths/strangeways-here-we-come/",
     },
     artist: {
       text: "The Smiths",
@@ -2607,7 +2607,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8e8c31d1aa5b9d009c93fe5c33deed5f/6715841",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/various-artists/80s-underground-cassette-culture-volume-1/",
     },
     artist: {
       text: "Various Artists",
@@ -2636,7 +2636,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/203fbb85e23f3cfac8ef5c82021f753a/2054815",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/zero-kama/the-secret-eye-of-l_a_y_l_a_h/",
     },
     artist: {
       text: "Zero Kama",
@@ -2657,7 +2657,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/51614e32519ecb1e6045d1951a33d924/1594513",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/museum_of_devotion/___to_the_pink_period/",
     },
     artist: {
       text: "Museum of Devotion",
@@ -2678,7 +2678,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/65e5181c7743e27392f8a7e255ab7031/5094002",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/negative-approach/negative-approach/",
     },
     artist: {
       text: "Negative Approach",
@@ -2699,7 +2699,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8635d07ae9211e002c8d537e05e041cf/3848972",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/message/derniere-nuit-the-crazy-garden/",
     },
     artist: {
       text: "Message",
@@ -2719,8 +2719,8 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   },
   {
     art: {
-      src: "https:",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      src: "",
+      url: "https://rateyourmusic.com/release/album/spk/leichenschrei/",
     },
     artist: {
       text: "SPK",
@@ -2740,8 +2740,8 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   },
   {
     art: {
-      src: "https:",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      src: "",
+      url: "https://rateyourmusic.com/release/album/filmmaker/the-love-market/",
     },
     artist: {
       text: "Filmmaker",
@@ -2762,7 +2762,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/ae6287f2c4be01eb67a21d58450d6e87/10154620",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/new-order/power-corruption-and-lies/",
     },
     artist: {
       text: "New Order",
@@ -2783,7 +2783,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/a3afedccf57dc89cbe63b15a361eaa3d/6908580",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/ep/boy-harsher/lesser-man/",
     },
     artist: {
       text: "Boy Harsher",
@@ -2804,7 +2804,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/f819533c95939a983cdb8125876da675/1994711",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/joy-division/peel-sessions/",
     },
     artist: {
       text: "Joy Division",
@@ -2825,7 +2825,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/79f52ef00886470017afadd3e0035a3c/1340329",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/joy-division/les-bains-douches-18-december-1979/",
     },
     artist: {
       text: "Joy Division",
@@ -2846,7 +2846,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/e6fff7eadf4c99999c252770541f0fd2/1545735",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/eyeless-in-gaza/rust-red-september/",
     },
     artist: {
       text: "Eyeless in Gaza",
@@ -2867,7 +2867,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/61b0ea9f57ce04c3be614a6ec3be6c0e/2500871",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/ain-soph-sigillum-s/simulacra/",
     },
     artist: {
       text: "Ain Soph",
@@ -2888,7 +2888,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/c9d751e092d7df2e33c2524e2d6df2a6/6128736",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/ancient-methods/a-collection-of-ancient-airs/",
     },
     artist: {
       text: "Ancient Methods",
@@ -2909,7 +2909,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1814870819a0285d30560db80abea31d/5203179",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/hal-hutchinson/wreckage-installations-and-metalworks/",
     },
     artist: {
       text: "Hal Hutchinson",
@@ -2930,7 +2930,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/2d55abe23f2f13a4a10371415e73b2b0/9061095",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/controlled-bleeding/distress-signals-i-and-ii/",
     },
     artist: {
       text: "Controlled Bleeding",
@@ -2951,7 +2951,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/f353e61ab049cdb6191e648208e4003e/6075326",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/troller_f1/graphic/",
     },
     artist: {
       text: "Troller",
@@ -2972,7 +2972,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/70d9c8d17b13bc8b0c52bae7a88066c7/8521807",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/the-cave/remain-in-dark-dull-reflections/",
     },
     artist: {
       text: "The Cave",
@@ -2993,7 +2993,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/1d64100b132bcc3b777c73c352e52fa3/4369612",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/single/victorian_picture_show/travels_of_one___love_with_no_words/",
     },
     artist: {
       text: "Victorian Picture Show",
@@ -3014,7 +3014,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/8942ab42ce455483927fd8beb44ef7e3/8587890",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/comp/rainforest-spiritual-enslavement/water-witches/",
     },
     artist: {
       text: "Rainforest Spiritual Enslavement",
@@ -3035,7 +3035,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/6f47f23ec40281938995373b97c19ec3/7950341",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/hilary-woods/birthmarks/",
     },
     artist: {
       text: "Hilary Woods",
@@ -3056,7 +3056,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/d42a288a1b49c00885cec2959e8dfcdc/7744786",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/lamentation/fullmoon-over-faerhaaven/",
     },
     artist: {
       text: "Lamentation",
@@ -3077,7 +3077,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/4726cd108cb2a1962619f85997bbdcc0/5655622",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/nezaboravan-san-o/nezaboravan-san-o/",
     },
     artist: {
       text: "Nezaboravan san o...",
@@ -3098,7 +3098,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/6de582395bfc1e26b4095a6a68ac86dc/2109669",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/angelo-badalamenti/twin-peaks/",
     },
     artist: {
       text: "Angelo Badalamenti",
@@ -3119,7 +3119,7 @@ snapshot[`成功 (withEmptyRow) 1`] = `
   {
     art: {
       src: "https://e.snmc.io/i/150/w/86233b586dff0a5c2528e05ac2a41e51/2193079",
-      url: "https://rateyourmusic.com/list/foxbyrd/emo-encyclopedia/1/",
+      url: "https://rateyourmusic.com/release/album/a-touch-of-hysteria/a-touch-of-hysteria/",
     },
     artist: {
       text: "A Touch of Hysteria",
